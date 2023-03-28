@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/inbox"
+        android:icon="@drawable/ic_mail_outline_24px"
+        android:title="@string/message"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/support"
+        android:icon="@drawable/ic_headset_support_icon"
+        android:title="@string/support"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_iconfinder_bell_4092563"
+        android:title="@string/notification"
+        app:actionLayout="@layout/custom_action_item_layout"
+        app:showAsAction="always" />
+    <!--app:actionLayout="@layout/custom_action_item_layout"-->
+
+</menu>

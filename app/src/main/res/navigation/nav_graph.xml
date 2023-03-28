@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/SignInFragment">
+
+    <fragment
+        android:id="@+id/SignInFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.SignInFragment"
+        tools:layout="@layout/fragment_signin">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/DashboardFragment" />
+        <action
+            android:id="@+id/action_SignInFragment_to_SignUpFragment"
+            app:destination="@id/SignUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_VendorDashboardFragment"
+            app:destination="@id/VendorDashboardFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/DashboardFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.DashboardFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_Dashboard_to_booking_Fragment"
+            app:destination="@id/BookingFragment" />
+        <action
+            android:id="@+id/action_Dashboard_to_invoice_eway_Fragment"
+            app:destination="@id/InvoiceEwayBillFragment" />
+        <action
+            android:id="@+id/action_Dashboard_to_LRTrackign_Fragment"
+            app:destination="@id/LRTrackingFragment" />
+        <action
+            android:id="@+id/action_Dashboard_to_DownloadPOD_Fragment"
+            app:destination="@id/PODDownloadFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/VendorDashboardFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.vendor_fragment.VendorDashboardFragment"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_Vendor_Dashboard_to_Vehicle_Assign_Fragment"
+            app:destination="@id/VendorVehicleAssignFragment" />
+        <action
+            android:id="@+id/action_Vendor_Dashboard_to_Status_Update_Fragment"
+            app:destination="@id/VendorStatusUpdateFragment" />
+        <action
+            android:id="@+id/action_Vendor_Dashboard_to_POD_Upload_Fragment"
+            app:destination="@id/VendorPODUploadFragment" />
+        <action
+            android:id="@+id/action_Vendor_Dashboard_to_DownloadPOD_Fragment"
+            app:destination="@id/VendorPODDownloadFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/VendorVehicleAssignFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.vendor_fragment.VendorVehicleAssignFragment">
+        <!--
+                <action
+                    android:id="@+id/action_SecondFragment_to_FirstFragment"
+                    app:destination="@id/FirstFragment" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/VendorStatusUpdateFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.vendor_fragment.VendorStatusUpdateFragment">
+        <!--
+                <action
+                    android:id="@+id/action_SecondFragment_to_FirstFragment"
+                    app:destination="@id/FirstFragment" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/VendorPODUploadFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.vendor_fragment.VendorPODUploadFragment">
+        <!--
+                <action
+                    android:id="@+id/action_SecondFragment_to_FirstFragment"
+                    app:destination="@id/FirstFragment" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/VendorPODDownloadFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.vendor_fragment.VendorDownloadPODFragment">
+        <!--
+                <action
+                    android:id="@+id/action_SecondFragment_to_FirstFragment"
+                    app:destination="@id/FirstFragment" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/BookingFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.BookingFragment">
+        <!--
+                <action
+                    android:id="@+id/action_SecondFragment_to_FirstFragment"
+                    app:destination="@id/FirstFragment" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/NotificationFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.NotificationFragment">
+        <!--
+                <action
+                    android:id="@+id/action_SecondFragment_to_FirstFragment"
+                    app:destination="@id/FirstFragment" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/SignUpFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.SignUpFragment">
+
+    </fragment>
+    <fragment
+        android:id="@+id/InvoiceEwayBillFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.UploadInvoiceEwayBillFragment">
+        <action
+            android:id="@+id/action_invoice_eway_Fragment_to_Picture"
+            app:destination="@id/PictureInvoiceEwayBillFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/PictureInvoiceEwayBillFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.PictureInvoiceEwayBill">
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/LRTrackingFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.LRTrackingFragment" />
+
+
+    <fragment
+        android:id="@+id/PODDownloadFragment"
+        android:name="com.transo.nippon.customer.vendor.nein.user.PODFragment" />
+
+
+</navigation>

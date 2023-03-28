@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBlue">#023a72</color>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#1ABB9C</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="text">#000</color>
+    <color name="appcolor">#1ABB9C</color>
+    <color name="lightGrey_trans">#949f9d9d</color>
+    <color name="blue">#028dff</color>
+    <color name="grey_dark">#b2b2b1</color>
+    <color name="blue_Dark">#116eba</color>
+    <color name="colorYellow">#FFFBAE27</color>
+    <color name="trans">#00000000</color>
+    <color name="red">#ee5757</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="darkBlue">#023a72</color>
+    <color name="colorRed">#dd2121</color>
+    <color name="list_even">#AAAAAA</color>
+    <color name="list_odd">#E1E2E2</color>
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+
+    <color name="colorGrey50">#fafafa</color>
+    <color name="colorGrey100">#f5f5f5</color>
+    <color name="colorGrey200">#eeeeee</color>
+    <color name="colorGrey300">#e0e0e0</color>
+    <color name="colorGrey400">#bdbdbd</color>
+    <color name="colorGrey500">#9e9e9e</color>
+
+    <color name="colordash1">#4e6cef</color>
+    <color name="colordash4">#636363</color>
+    <color name="mtrl_textinput_default_box_stroke_color">@color/appthemecolor</color>
+
+</resources>

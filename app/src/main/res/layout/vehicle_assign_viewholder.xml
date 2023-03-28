@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- android:background="?attr/selectableItemBackground"-->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:outlineProvider="none"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/appthemecolor"
+        app:strokeWidth="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/fixed_invoice_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.05" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/middle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.4" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.75" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/booking_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="98494954827"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey_700"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toStartOf="@id/middle"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/origin_city"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="banglore"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey_600"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/end"
+                    app:layout_constraintStart_toEndOf="@id/middle"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/destination_city"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="chennai"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey_600"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="@id/end"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/arrow_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@id/destination_city"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/destination_city"
+                    app:layout_constraintTop_toTopOf="@id/destination_city" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/hidden_layout_invoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fixed_invoice_layout">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/vendor_vehicle_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Details"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/vendor_vehicle_no_layout"
+                    style="@style/TextInputLayout1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/vendor_vehicle_details">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/invoice_date"
+                        style="@style/TextInputEditBase1"
+                        android:clickable="true"
+                        android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                        android:focusable="false"
+                        android:hint="Choose Vehicle No."
+                        android:inputType="textNoSuggestions" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/checkbox_margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.1" />
+
+                <com.google.android.material.checkbox.MaterialCheckBox
+                    android:id="@+id/gps_tracking_checkbox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="GPS Tracking"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toTopOf="@id/gps_device_provider_name_layout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/vendor_vehicle_no_layout"
+                    app:useMaterialThemeColors="false" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/gps_device_provider_name_layout"
+                    style="@style/TextInputLayout1"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/gps_tracking_checkbox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/gps_device_provider_name"
+                        style="@style/TextInputEditBase1"
+                        android:digits="@string/only_char_number_specialchar"
+                        android:hint="GPS Device Provider Name"
+                        android:inputType="textCapWords"
+                        android:maxLength="255" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/gps_device_ID_layout"
+                    style="@style/TextInputLayout1"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/gps_device_provider_name_layout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/gps_device_id"
+                        style="@style/TextInputEditBase1"
+                        android:digits="@string/only_char_number_specialchar"
+                        android:hint="GPS Device Provider ID"
+                        android:inputType="textCapWords"
+                        android:maxLength="255" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.checkbox.MaterialCheckBox
+                    android:id="@+id/sim_tracking_checkbox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="SIM Tracking"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/gps_device_ID_layout" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/driver_mobile_No_layout"
+                    style="@style/TextInputLayout1"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sim_tracking_checkbox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/vendor_driver_mobile_no"
+                        style="@style/TextInputEditBase1"
+                        android:digits="@string/only_char_number_specialchar"
+                        android:hint="Enter Driver Mobile No."
+                        android:inputType="textCapWords"
+                        android:maxLength="255" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/divider_sbt_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.5" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/submitBtn_vehicle_assign"
+                    style="@style/ButtonStyle8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_submit"
+                    app:layout_constraintEnd_toStartOf="@id/divider_sbt_cancel"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/vendor_vehicle_no_layout" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/resetBtn_vehicle_assign"
+                    style="@style/ButtonStyleReset"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:text="Cancel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/divider_sbt_cancel"
+                    app:layout_constraintTop_toBottomOf="@id/vendor_vehicle_no_layout" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

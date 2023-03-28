@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/white">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <com.google.android.material.textfield.TextInputLayout style="@style/TextInputLayout1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/day"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/enter_day_mandatory"
+                    android:inputType="number"
+                    android:maxLength="15" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout style="@style/TextInputLayout1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pickup_schedule_date"
+                    style="@style/TextInputEditBase1"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                    android:focusable="false"
+                    android:hint="@string/pickup_schedule_date_mandatory"
+                    android:inputType="textNoSuggestions" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout style="@style/TextInputLayout1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/vehicle_placed_datetime_at_origin"
+                    style="@style/TextInputEditBase1"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                    android:focusable="false"
+                    android:hint="@string/vehicle_placed_datetime_at_origin_mandatory"
+                    android:inputType="textNoSuggestions" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/vehicle_reported_datetime_at_dest"
+                    style="@style/TextInputEditBase1"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                    android:focusable="false"
+                    android:hint="@string/vehicle_reported_datetime_at_dest_mandatory"
+                    android:inputType="textNoSuggestions" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/veh_released_datetime_at_dest"
+                    style="@style/TextInputEditBase1"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                    android:focusable="false"
+                    android:hint="@string/veh_released_datetime_at_dest_mandatory"
+                    android:inputType="textNoSuggestions" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/delivery_date"
+                    style="@style/TextInputEditBase1"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                    android:focusable="false"
+                    android:hint="@string/delivery_date_mandatory"
+                    android:inputType="textNoSuggestions" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout style="@style/TextInputLayout1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/vendor_bills_ageing"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/vendor_bills_ageing_mandatory"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout style="@style/TextInputLayout1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/present_status"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/present_status_mandatory"
+                    android:inputType="textCapWords" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout style="@style/TextInputLayout1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pod_status"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/pod_status"
+                    android:inputType="textCapWords" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout style="@style/TextInputLayout1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pods_submit"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/pods_submit"
+                    android:inputType="textCapWords" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pods_submission_date"
+                    style="@style/TextInputEditBase1"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                    android:focusable="false"
+                    android:hint="@string/pods_submission_date"
+                    android:inputType="textNoSuggestions" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/total_km"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/total_km_mandatory"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/avg_km_covered_perday"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/avg_km_covered_perday_mandatory"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tat"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/tat_mandatory"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tgt_km_covered"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/tgt_km_covered_mandatory"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/actual_days"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/actual_days"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/actual_km"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/actual_km_mandatory"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/balance_km"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/balance_km_mandatory"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout style="@style/TextInputLayout1">
+
+                <com.transo.nippon.customer.vendor.nein.user.widget.AutoCompleteDropDown
+                    android:id="@+id/ontime_or_delayed"
+                    style="@style/TextInputEditBase1"
+                    android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                    android:hint="@string/ontime_or_delayed"
+                    android:inputType="textNoSuggestions" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ontime_or_delay_percent"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/ontime_or_delay_percent"
+                    android:inputType="textNoSuggestions" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/actual_days_of_delivery"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/actual_days_of_delivery"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/reason_for_delay"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/reason_for_delay"
+                    android:inputType="textCapSentences" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout1"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/halting_days"
+                    style="@style/TextInputEditBase1"
+                    android:hint="@string/halting_days"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout style="@style/TextInputLayout1">
+
+                <com.transo.nippon.customer.vendor.nein.user.widget.AutoCompleteDropDown
+                    android:id="@+id/status_or_remarks"
+                    style="@style/TextInputEditBase1"
+                    android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                    android:hint="@string/status_or_remarks"
+                    android:inputType="textNoSuggestions" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ButtonStyle8"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
+

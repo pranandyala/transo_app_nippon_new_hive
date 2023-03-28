@@ -1,0 +1,1669 @@
+<resources>
+    <string name="app_name">nippon</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <!--        <string name="app_build_version" translatable="false">Demo1 Version 0.9.0</string>-->
+    <!--        <string name="app_name" translatable="false">Transo Nippon(Demo1)</string>-->
+    <!--        <string name="app_filter" translatable="false">Transo Nippon(Demo1)</string>-->
+
+    <string name="app_build_version" translatable="false">UAT Version 0.9.0</string>
+    <string name="app_filter" translatable="false">Transo Nippon(UAT)</string>
+
+    <!--        <string name="app_build_version" translatable="false">PrePod Version 0.9.0</string>-->
+    <!--        <string name="app_name" translatable="false">Transo Nippon(PrePod)</string>-->
+    <!--        <string name="app_filter" translatable="false">Transo Nippon(PrePod)</string>-->
+
+    <!--    <string name="app_build_version" translatable="false">3PL Version 0.9.0</string>-->
+    <!--    <string name="app_name" translatable="false">Transo Nippon(3PL)</string>-->
+    <!--    <string name="app_filter" translatable="false">Transo Nippon(3PL)</string>-->
+
+    <!--     Digits-->
+    <string name="only_char" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz</string>
+    <string name="only_char_no_space" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+    <string name="only_char_number" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789abcdefghijklmnopqrstuvwxyz</string>
+    <string name="only_char_number_specialchar" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789abcdefghijklmnopqrstuvwxyz@#$*,&amp;</string>
+    <string name="only_number" translatable="false">0123456789</string>
+    <string name="only_caps_number" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="only_caps_number_space" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 </string>
+
+    <string name="profile" translatable="false">Profile</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="splash_head" translatable="false">Welcome to on-demand technology for logistics.</string>
+    <string name="brand" translatable="false">Transo</string>
+    <string name="req_prices" translatable="false">Enter request price</string>
+    <string name="dialog_default_title" translatable="false">Here\'s a message!</string>
+    <string name="alert" translatable="false">Alert</string>
+    <string name="action_send" translatable="false">Send</string>
+    <string name="action_submit" translatable="false">Submit</string>
+    <string name="add_location" translatable="false">Add Location</string>
+    <string name="action_proceed" translatable="false">Proceed</string>
+    <string name="action_confirm" translatable="false">Confirm</string>
+    <string name="action_update" translatable="false">Update</string>
+    <string name="action_view" translatable="false">View</string>
+    <string name="allot" translatable="false">Allot</string>
+    <string name="lr_status" translatable="false">LR Status</string>
+    <string name="request_lrs" translatable="false"><u>Request LR\'s</u></string>
+    <string name="requested_lrs" translatable="false"><u>Requested LR\'s</u></string>
+    <string name="postal_code" translatable="false">Postal Code *</string>
+
+    <string name="add_remark" translatable="false">Add Remark</string>
+    <string name="close_trip" translatable="false">Close Trip</string>
+    <string name="action_cancel" translatable="false">Cancel</string>
+    <string name="action_retry" translatable="false">Retry</string>
+    <string name="action_click" translatable="false">Click</string>
+    <string name="documents" translatable="false">Documents</string>
+    <string name="downloads" translatable="false">Downloads</string>
+    <string name="action_yes" translatable="false">Yes</string>
+    <string name="action_no" translatable="false">No</string>
+    <string name="confirm_cancel_trip" translatable="false">Are you sure you want to cancel the trip?</string>
+    <string name="reason" translatable="false">Enter the reason for trip cancellation</string>
+    <string name="choose_file" translatable="false">Choose file</string>
+    <string name="choose_csv_file" translatable="false">Choose CSV file</string>
+    <string name="gallery" translatable="false">Gallery</string>
+    <string name="camera" translatable="false">Camera</string>
+    <string name="choose_image" translatable="false">Upload Image</string>
+    <string name="already_added_one_drop" translatable="false">One drop is already added</string>
+    <string name="update_password" translatable="false">Update Password</string>
+    <string name="new_password" translatable="false">Enter new password *</string>
+    <string name="confirm_password" translatable="false">Confirm password *</string>
+    <string name="add_warehouse_to_proceed" translatable="false">To proceed, you need to add a Warehouse. Click here to add a Warehouse</string>
+    <string name="do_you_want_to_logout" translatable="false">Do you want to logout?</string>
+    <string name="do_you_want_to_delete" translatable="false">Do you want to delete?</string>
+    <string name="do_you_want_to_exit" translatable="false">Do you want to exit?</string>
+    <string name="userid" translatable="false">Enter Email ID/Mobile No.*</string>
+    <string name="pass" translatable="false">Password*</string>
+    <string name="Sign_in" translatable="false">Login</string>
+    <string name="request_password" translatable="false">Request Password</string>
+    <string name="Sign_up" translatable="false">Create Account</string>
+    <string name="forgot" translatable="false"><u>Forgot Password?</u></string>
+    <string name="forgot_email" translatable="false">Enter registered Mobile No./Email Id</string>
+    <string name="requestbtn" translatable="false">Request Password</string>
+    <string name="create_booking" translatable="false">Create Booking</string>
+    <string name="Quote_Responses" translatable="false">Quote Responses</string>
+    <string name="intransit" translatable="false">IN-Transit</string>
+    <string name="bookings" translatable="false">Bookings</string>
+    <string name="reports" translatable="false">Reports</string>
+    <string name="support" translatable="false">Support</string>
+    <string name="service" translatable="false">Terms of Service</string>
+    <string name="privacy" translatable="false">Privacy Notice</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="aboutus" translatable="false">About Us</string>
+    <string name="tonnage" translatable="false">Monthly Tonnage</string>
+    <string name="to" translatable="false">To</string>
+    <string name="from" translatable="false">From</string>
+    <string name="from_location" translatable="false">From Location *</string>
+    <string name="to_location" translatable="false">To Location *</string>
+    <string name="from_zone" translatable="false">From Zone</string>
+    <string name="to_zone" translatable="false">To Zone</string>
+    <string name="carrier" translatable="false">Carrier</string>
+    <string name="fn" translatable="false">Enter First Name *</string>
+    <string name="ln" translatable="false">Enter Last Name *</string>
+    <string name="label_home" translatable="false">Home</string>
+    <string name="label_administration" translatable="false">Administration</string>
+    <string name="add_user" translatable="false">Add User</string>
+    <string name="display_user" translatable="false">Display Users</string>
+    <string name="invoice" translatable="false">Invoice</string>
+    <string name="packing" translatable="false">Packing</string>
+
+    <string name="pick" translatable="false">Pickup Location</string>
+    <string name="source" translatable="false">Source</string>
+
+    <string name="drop" translatable="false">Drop Location</string>
+    <string name="capacity" translatable="false">Capacity</string>
+    <string name="warehouse" translatable="false">Warehouse</string>
+    <string name="sub_branch" translatable="false">Sub Branch</string>
+
+    <string name="live_trips" translatable="false">Live Trips</string>
+    <string name="invoice_customer" translatable="false">Upload Invoice</string>
+    <string name="tracking" translatable="false">Tracking</string>
+    <string name="pod_upload" translatable="false">POD Upload</string>
+
+    <string name="lr_no_details" translatable="false">LR Number Details</string>
+    <string name="lr_allocation" translatable="false">LR Allocation</string>
+    <string name="lr_allocate" translatable="false">LR Allocate</string>
+
+    <string name="warehouse_list" translatable="false">Warehouse List</string>
+    <string name="sub_branch_list" translatable="false">Sub Branch List</string>
+
+    <string name="vehicle_list" translatable="false">Vehicle List</string>
+    <string name="username" translatable="false">Enter User Name *</string>
+    <string name="company" translatable="false">Enter Company Name *</string>
+    <string name="website" translatable="false">Enter Website URL</string>
+    <string name="city" translatable="false">Enter City *</string>
+    <string name="state" translatable="false">Enter State *</string>
+    <string name="state_name" translatable="false">State</string>
+    <string name="stateName" translatable="false">State *</string>
+    <string name="cityName" translatable="false">City *</string>
+    <string name="pincode" translatable="false">Pincode *</string>
+    <string name="src" translatable="false">Enter Source *</string>
+    <string name="dest" translatable="false">Enter Destination *</string>
+    <string name="destination" translatable="false">Destination</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="connection" translatable="false">No Internet Connection</string>
+    <string name="shipment_report" translatable="false">Shipment Report</string>
+    <string name="select_date" translatable="false">Select Date</string>
+    <string name="invoice_date" translatable="false">Invoice Date</string>
+    <string name="origin" translatable="false">Source</string>
+    <string name="origin_add" translatable="false">Origin</string>
+    <string name="remarks" translatable="false">Remarks</string>
+    <string name="weight" translatable="false">Weight</string>
+    <string name="material_type_selection" translatable="false">Enter Material Type *</string>
+    <string name="select_vehicle_type" translatable="false">Select Vehicle Type *</string>
+    <string name="select_vehicleType" translatable="false">Select Vehicle Type *</string>
+    <string name="select_vehicles" translatable="false">Select Vehicles</string>
+    <string name="enable_geofence" translatable="false">Enable Geofence</string>
+    <string name="select_location" translatable="false">Select Location</string>
+    <string name="select_location_mandatory" translatable="false">Select Location *</string>
+    <string name="enter_warehouse_name" translatable="false">Enter Warehouse Name</string>
+    <string name="add_warehouse" translatable="false">Add Warehouse</string>
+    <string name="add_sub_branch" translatable="false">Add Sub Branch</string>
+
+    <string name="gender" translatable="false">Gender</string>
+    <string name="male" translatable="false">Male</string>
+    <string name="update_driver" translatable="false">Update Driver</string>
+    <string name="female" translatable="false">Female</string>
+    <string name="form_booking" translatable="false">Instant Booking</string>
+    <string name="file_booking" translatable="false">Bulk Booking</string>
+    <string name="file_name" translatable="false">File Name</string>
+
+    <string name="book_date" translatable="false">Booking Date</string>
+    <string name="req_price" translatable="false">Req Price</string>
+    <string name="status" translatable="false">Status</string>
+    <string name="shipment_details" translatable="false">Shipment Details</string>
+    <string name="vehicle" translatable="false">Vehicle</string>
+    <string name="vehicle_no" translatable="false">Vehicle No.</string>
+    <string name="sid" translatable="false">Shipment ID</string>
+    <string name="consignment_id" translatable="false">Consignment ID</string>
+    <string name="inv" translatable="false">Invoice ID</string>
+    <string name="bid" translatable="false">Booking ID </string>
+    <string name="lr" translatable="false">LR No.</string>
+    <string name="pod" translatable="false">POD No.</string>
+    <string name="pod_documents" translatable="false">POD Documents</string>
+
+    <string name="tonnages" translatable="false">Tonnage</string>
+    <string name="material" translatable="false">Material</string>
+    <string name="materialType" translatable="false">Material type</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="distance" translatable="false">Distance</string>
+    <string name="cost" translatable="false">Freight Cost</string>
+    <string name="cgname" translatable="false">Consignor Name</string>
+    <string name="cnname" translatable="false">Consignee Name</string>
+    <string name="pno" translatable="false">Phone No.</string>
+    <string name="sdate" translatable="false">Start Date &amp; Time</string>
+    <string name="edate" translatable="false">End Date &amp; Time</string>
+    <string name="lr_no" translatable="false">LR</string>
+    <string name="lr_list" translatable="false">LR List</string>
+    <string name="pod_no" translatable="false">POD</string>
+    <string name="msg_loading_image" translatable="false">Loading&#8230;</string>
+    <string name="searching_nearby_vehicle" translatable="false">Searching nearby vehicles&#8230;</string>
+    <string name="searching_available_vehicle" translatable="false">Searching available vehicles&#8230;</string>
+    <string name="choose_file_to_upload" translatable="false">Please choose the file you want to upload.</string>
+    <string name="select_document" translatable="false">Please select a document</string>
+    <string name="trip_cancel_success" translatable="false">Trip cancelled successfully</string>
+    <string name="unable_to_cancel_trip" translatable="false">Unable to cancel trip</string>
+    <string name="enter_problem_description" translatable="false">Enter problem description</string>
+    <string name="edit_user" translatable="false">Edit User</string>
+    <string name="edit" translatable="false">Edit</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="eta" translatable="false">ETA</string>
+    <string name="fname" translatable="false">First Name</string>
+    <string name="lname" translatable="false">Last Name</string>
+    <string name="emailid" translatable="false">Email Id</string>
+    <string name="mobileno" translatable="false">Mobile</string>
+    <string name="successful" translatable="false">Successful</string>
+    <string name="successful_status" translatable="false">Status changed successfully</string>
+    <string name="updated_successfully" translatable="false">Updated successfully</string>
+    <string name="failed_to_update" translatable="false">Failed to update</string>
+    <string name="quote_details" translatable="false">Quote Details</string>
+    <string name="h" translatable="false">H</string>
+    <string name="l" translatable="false">L</string>
+    <string name="w" translatable="false">W</string>
+    <string name="title_activity_shipment_report" translatable="false">Shipment Report</string>
+    <string name="copyright" translatable="false">© Copyright Ezyloads Logistics Pvt Ltd. 2021.\n All Rights Reserved.</string>
+    <string name="support_content" translatable="false">Dear User,\nIf you experience any problem with the Application please feel free to contact us by writing an email to support@transo.in, including the problem description with your full name and phone number. Our support team will reach you.</string>
+    <string name="phone_call" translatable="false">7625088882</string>
+    <string name="describe_problem" translatable="false">Describe your problem in detail</string>
+    <string name="support_mail" translatable="false">support@transo.in</string>
+    <string name="notification" translatable="false">Notification</string>
+    <string name="title_activity_base" translatable="false">BaseActivity</string>
+    <string name="search_hint" translatable="false">Search</string>
+    <string name="no_data_available" translatable="false">No Data Available</string>
+    <string name="no_vehicle_available" translatable="false">No Vehicle Available</string>
+    <string name="action_ok" translatable="false">OK</string>
+    <string name="rs" translatable="false">\u20B9</string>
+    <string name="km" translatable="false">Km</string>
+    <string name="individual_booking" translatable="false">TransoCity Booking</string>
+    <string name="pickup_from" translatable="false">Pickup From *</string>
+    <string name="pickup_location" translatable="false">Pickup Location</string>
+    <string name="drop_at" translatable="false">Drop At *</string>
+    <string name="book_now" translatable="false">Book Now</string>
+    <string name="request_booking" translatable="false">Request Booking</string>
+    <string name="confirm_booking" translatable="false">Confirm Booking</string>
+    <string name="view_drop_points" translatable="false">View Drop Points (0)</string>
+    <string name="click_to_upload_csv" translatable="false">Click to upload CSV</string>
+    <string name="booking_details" translatable="false">BOOKING DETAILS</string>
+    <string name="price" translatable="false">Price</string>
+    <string name="length" translatable="false">Length</string>
+    <string name="height" translatable="false">Height</string>
+    <string name="breadth" translatable="false">Breadth</string>
+    <string name="pin" translatable="false">Pincode *</string>
+    <string name="material_type" translatable="false">Material Type *</string>
+    <string name="no_of_items" translatable="false">No of Packages *</string>
+    <string name="material_description" translatable="false">Material Description</string>
+
+    <string name="no_of_boxes" translatable="false">No. of Boxes</string>
+    <string name="name" translatable="false">Name</string>
+    <!--<string name="consignor_details" translatable="false">Consignor Details</string>-->
+    <string name="select_weight" translatable="false">Select Weight *</string>
+    <string name="weight_in_ton" translatable="false">Weight in kg</string>
+    <string name="actual_weight_in_kg_mand" translatable="false">Actual Weight in kg *</string>
+
+    <string name="select_payment_mode" translatable="false">Select Payment Mode *</string>
+    <string name="loading" translatable="false">Loading</string>
+    <string name="loading_charge" translatable="false">Loading Charges</string>
+    <string name="unloading_charge" translatable="false">Unloading Charges</string>
+    <string name="other_charge" translatable="false">Other Charges</string>
+    <string name="unloading" translatable="false">Unloading</string>
+    <string name="no_drops_to_show" translatable="false">No drop points to show</string>
+    <string name="f_name" translatable="false">First Name *</string>
+    <string name="l_name" translatable="false">Last Name *</string>
+    <string name="dob" translatable="false">Date of birth</string>
+    <string name="email_id" translatable="false">Email ID *</string>
+    <string name="mobile_no" translatable="false">Mobile No *</string>
+    <string name="drop_end_time" translatable="false">Drop end time</string>
+    <string name="document_type" translatable="false">Document Type</string>
+
+    <string name="change_password" translatable="false"><u>Change Password</u></string>
+    <string name="changePassword" translatable="false">Change Password *</string>
+    <string name="file_upload_success" translatable="false">File uploaded successfully</string>
+    <string name="file_types" translatable="false">File types that can be uploaded - csv, xlsx, xls.</string>
+    <string name="consignee_details" translatable="false">Consignee Details</string>
+    <string name="consignor_consignee_details" translatable="false">Consignor/Consignee Details</string>
+    <string name="consignee_name" translatable="false">Consignee Name</string>
+    <string name="consignee_phno" translatable="false">Consignee Phone No</string>
+    <string name="select_payment_method" translatable="false">Select payment method</string>
+    <string name="revenue" translatable="false">Revenue</string>
+    <string name="expenses" translatable="false">Expenses</string>
+    <string name="drop_consignee_phno" translatable="false">Consignee Mobile Number </string>
+    <string name="drop_loc_personname" translatable="false">Consignee Name *</string>
+    <string name="drop_details_added" translatable="false">Drop details added successfully.</string>
+    <string name="drop_address" translatable="false">Drop Address *</string>
+    <string name="volumteric_weight" translatable="false">Volumetric weight</string>
+    <string name="select_warehouse" translatable="false">Select Warehouse</string>
+    <string name="select_warehouse_mandatory" translatable="false">Select Warehouse *</string>
+    <string name="assigned_vehicles" translatable="false">ASSIGNED VEHICLES</string>
+    <string name="available_vehicles" translatable="false">AVAILABLE VEHICLES</string>
+    <string name="class_name" translatable="false">Class</string>
+    <string name="vehicle_type_name" translatable="false">Vehicle Type</string>
+    <string name="vehicle_status" translatable="false">Vehicle Status</string>
+    <string name="verification" translatable="false">Verification</string>
+    <string name="vehicle_class" translatable="false">Vehicle Details</string>
+    <string name="your_name" translatable="false">Name *</string>
+    <string name="contact_name" translatable="false">Contact Name</string>
+    <string name="company_name" translatable="false">Company Name *</string>
+    <string name="companyName" translatable="false">Company Name *</string>
+    <string name="companyName_vendor" translatable="false">Company Name</string>
+    <string name="mobile_number" translatable="false">Mobile Number *</string>
+    <string name="email" translatable="false">Email ID</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="confirmpassword" translatable="false">Confirm Password *</string>
+    <string name="mobile" translatable="false">Mobile No.</string>
+    <string name="signup" translatable="false">Sign Up</string>
+    <string name="create_new_account" translatable="false"><u>New User? Create Account</u></string>
+    <string name="register" translatable="false">REGISTER</string>
+    <string name="signin" translatable="false">Sign In</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="new_user" translatable="false">New User?</string>
+    <string name="signup_underline" translatable="false"><u>Sign Up</u></string>
+    <string name="user_details" translatable="false">User Details</string>
+    <string name="pan" translatable="false">Enter PAN No. *</string>
+    <string name="gst" translatable="false">Enter GSTIN *</string>
+    <string name="gstin_no_mandatory" translatable="false">GSTIN *</string>
+    <string name="cin" translatable="false">Enter CIN</string>
+    <string name="pancard" translatable="false">PAN card *</string>
+    <string name="browse" translatable="false">Browse</string>
+    <string name="file" translatable="false">No file selected.</string>
+    <string name="gst_reg_certificate" translatable="false">GST Registration Certificate *</string>
+    <string name="address_proof" translatable="false">Address Proof *</string>
+    <string name="autorization" translatable="false">I hereby authorize TRANSO to verify the documents provided.</string>
+    <string name="password_sent_to_mobileno" translatable="false">Email Id and Password sent as sms to your registered mobile no.</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="driver_details" translatable="false">DRIVER DETAILS</string>
+    <string name="warehouse_name" translatable="false">Warehouse Name</string>
+    <string name="manufacturer" translatable="false">Manufacturer</string>
+    <string name="model" translatable="false">Model</string>
+    <string name="driver_name" translatable="false">Driver Name</string>
+    <string name="driver_phno" translatable="false">Driver Phone No.</string>
+    <string name="master_trip_id" translatable="false">Master Trip Id</string>
+    <string name="drop_details" translatable="false">SHIPMENT DETAILS</string>
+    <string name="ftl_manual_tracking_details" translatable="false">FTL MANUAL TRACKING DETAILS</string>
+
+    <string name="with_transo_driver_app" translatable="false">With Transo Driver Application</string>
+    <string name="without_transo_driver_app" translatable="false">Without Transo Driver Application</string>
+
+    <string name="add_shipment_details" translatable="false">ADD SHIPMENT DETAILS</string>
+    <string name="vehicle_details" translatable="false">VEHICLE DETAILS</string>
+    <string name="pickup_point" translatable="false">PICKUP POINT</string>
+    <string name="drop_point" translatable="false">DROP POINT</string>
+    <string name="drop_location" translatable="false">Drop Location</string>
+    <string name="vehicle_location" translatable="false">VEHICLE LOCATION</string>
+    <string name="error_server" translatable="false">Unable to connect to server. Please try after sometime.</string>
+    <string name="time" translatable="false">Time</string>
+    <string name="trip_status" translatable="false">Trip Status</string>
+    <string name="drop_status" translatable="false">Drop Status</string>
+    <string name="drop_status_time" translatable="false">Drop Status Time</string>
+    <string name="no_file_selected" translatable="false">No file selected.</string>
+    <string name="trip_end_time" translatable="false">Trip end time</string>
+    <string name="ltl_shipment_tracking" translatable="false">LTL Shipment Tracking</string>
+    <string name="trip_start_time" translatable="false">Trip start time</string>
+    <string name="drop_start_date" translatable="false">Drop reached time</string>
+    <string name="cancel_trip" translatable="false">Cancel Trip</string>
+    <string name="view_trip_details" translatable="false">View Trip details</string>
+    <string name="show_all_trip" translatable="false">Show all trips</string>
+    <string name="my_bookings" translatable="false">My Bookings</string>
+    <string name="completed_trips" translatable="false">Completed Trips</string>
+    <string name="enter_otp" translatable="false">Enter OTP</string>
+    <string name="invalid_otp" translatable="false">Invalid OTP</string>
+    <string name="choose_language" translatable="false">Choose Language</string>
+    <string name="password_update_success" translatable="false">Password updated successfully</string>
+    <string name="err_enter_email_mobile" translatable="false">Enter Email Id / Mobile No.</string>
+    <string name="err_enter_valid_email_mobile" translatable="false">Enter a valid email Id / Mobile No.</string>
+    <string name="err_enter_emailid" translatable="false">Enter Email Id </string>
+    <string name="err_enter_valid_emailid" translatable="false">Enter a valid email Id </string>
+    <string name="err_enter_mobileno" translatable="false">Enter mobile number</string>
+    <string name="err_enter_valid_mobileno" translatable="false">Enter a valid mobile number</string>
+    <string name="err_enter_password" translatable="false">Enter password</string>
+    <string name="err_confirm_password" translatable="false">Confirm password</string>
+    <string name="err_enter_valid_password" translatable="false">The password should be minimum 6 characters</string>
+    <string name="err_enter_valid_confirm_password" translatable="false">Confirm password.</string>
+    <string name="err_enter_name" translatable="false">Enter Your Name</string>
+    <string name="err_enter_companyname" translatable="false">Enter Company Name</string>
+    <string name="err_enter_customer_name" translatable="false">Enter Customer Name</string>
+    <string name="err_select_product_category" translatable="false">Select Product Category</string>
+    <string name="err_registration" translatable="false">User already registered</string>
+    <string name="err_password_match" translatable="false">Passwords don’t match</string>
+    <string name="err_upload_file" translatable="false">Unable to upload file</string>
+    <string name="err_server" translatable="false">Couldn\'t connect to server. Please try after sometime.</string>
+    <string name="error_internet" translatable="false">No internet connection</string>
+    <string name="rationale_doc_picker" translatable="false">The applications needs this permission to read documents from your device.</string>
+    <string name="err_enter_pancard" translatable="false">Enter PAN number</string>
+    <string name="err_enter_valid_pancard" translatable="false">Enter a valid PAN number</string>
+    <string name="err_enter_valid_gstno" translatable="false">Enter a valid GSTIN</string>
+    <string name="err_enter_valid_cinno" translatable="false">Enter valid CIN </string>
+    <string name="err_upload_pancard" translatable="false">Upload PAN card copy</string>
+    <string name="err_upload_addressproof" translatable="false">Upload address proof</string>
+    <string name="err_select_checkbox" translatable="false">Select checkbox to proceed.</string>
+    <string name="err_select_atleast_one_checkbox" translatable="false">Select at least one checkbox to proceed.</string>
+    <string name="err_unsuccessful" translatable="false">Unsuccessful</string>
+    <string name="err_invalid_username_password" translatable="false">Invalid Email Id/Mobile No./Password</string>
+    <string name="err_emaild_mobileno_not_registered" translatable="false">The entered Email Id / Mobile No. is not valid.</string>
+    <string name="err_select_pickup_location" translatable="false">Select pickup location.</string>
+    <string name="select_pickup_location" translatable="false">Select Pickup Location *</string>
+    <string name="err_select_vehicle_type" translatable="false">Select vehicle type.</string>
+    <string name="err_select_warehouse" translatable="false">Select warehouse.</string>
+    <string name="err_select_drop_location" translatable="false">Select drop location.</string>
+    <string name="err_select_driver" translatable="false">Select driver</string>
+
+    <string name="err_no_drops_added" translatable="false">No drops added</string>
+    <string name="err_weight_mismatch" translatable="false">The entered weight is greater than the vehicle carriage capacity. Please select the weight &lt;=  the vehicle carriage capacity</string>
+    <string name="err_weight_mismatch_ftl" translatable="false">The entered weight is greater than the vehicle carriage capacity. Do you wish to proceed?</string>
+    <string name="err_no_vehicle_fount_retry" translatable="false">No Vehicle found! Do you want to retry?</string>
+    <string name="err_enter_pincode" translatable="false">Enter pincode</string>
+    <string name="err_enter_valid_pincode" translatable="false">Enter a valid pincode</string>
+    <string name="err_enter_material_type" translatable="false">Enter material type</string>
+    <string name="err_enter_consignee_name" translatable="false">Enter consignee name</string>
+    <string name="err_enter_subcustomer_name" translatable="false">Enter Sub Customer Name</string>
+    <string name="err_enter_consignor_consignee_name" translatable="false">Enter Consignor/Consignee Name</string>
+    <string name="err_enter_consignor_consignee_phoneno" translatable="false">Enter Consignor/Consignee Phone No.</string>
+    <string name="err_valid_enter_consignor_consignee_phoneno" translatable="false">Enter a valid Consignor/Consignee Phone No.</string>
+    <string name="err_enter_valid_consignor_consignee_email" translatable="false">Enter a valid Consignor/Consignee Email Id</string>
+    <string name="err_enter_number_of_items" translatable="false">Enter the number of packages</string>
+    <string name="err_enter_weight" translatable="false">Enter material weight</string>
+    <string name="err_select_file_to_upload" translatable="false">Select the file to upload</string>
+    <string name="err_enter_weight_mismatch" translatable="false">The entered weight is more than the vehicle carrying capacity</string>
+    <string name="err_enter_password_min" translatable="false">The password should be minimum 6 characters</string>
+    <string name="err_select_warehouse_location" translatable="false">Select warehouse location</string>
+    <string name="booking_status" translatable="false">Booking Status</string>
+    <string name="pending_trips" translatable="false">Pending Bookings</string>
+    <string name="pending_for_closure" translatable="false">Pending for closure</string>
+    <string name="err_enter_branch_code" translatable="false">Enter Branch Code </string>
+    <string name="err_enter_branch_pan" translatable="false">Enter Branch PAN No.</string>
+    <string name="err_enter_branch_gst" translatable="false">Enter Branch GSTIN </string>
+    <string name="err_enter_branch_address" translatable="false">Enter Branch Address </string>
+    <string name="pending_booking" translatable="false">Pending Booking</string>
+    <string name="upload_drop_details" translatable="false">Upload Drop Details *</string>
+    <string name="consignee_gst_no" translatable="false">Consignee GST Number </string>
+    <string name="input_consignment_measurements_in_cm" translatable="false">Input the consignment (box) measurements in cm</string>
+    <string name="assigned_users" translatable="false">ASSIGNED USERS</string>
+    <string name="assign_user" translatable="false">Assign User</string>
+    <string name="fcm_message" translatable="false">New Message</string>
+    <string name="available_users" translatable="false">AVAILABLE USERS</string>
+    <string name="booking_type" translatable="false">Booking Type</string>
+    <string name="customer" translatable="false">Customer</string>
+    <string name="booking_date_and_time" translatable="false">Booking Date &amp; Time</string>
+    <string name="booking_date_time" translatable="false">Booking Date / Time</string>
+    <string name="req_booking_date_and_time" translatable="false">Req.Booking Date &amp; Time</string>
+    <string name="select_manufacturer" translatable="false">Select Manufacturer</string>
+    <string name="select_vehicle_class" translatable="false">Select Vehicle class/ Category</string>
+    <string name="model_submodel" translatable="false">Model &amp; Sub Model</string>
+    <string name="chassis" translatable="false">Chassis Number *</string>
+    <string name="chassis_no" translatable="false">Chassis Number</string>
+    <string name="engine_no" translatable="false">Engine Number</string>
+
+    <string name="regno" translatable="false">Vehicle Registration Number *</string>
+    <string name="reg_date" translatable="false">Date of Registration</string>
+    <string name="engno" translatable="false">Engine Number *</string>
+    <string name="odometer" translatable="false">Odometer Reading</string>
+    <string name="manuf_date" translatable="false">Date of Manufacture</string>
+    <string name="fuel_tank_capacity" translatable="false">Fuel Tank Capacity </string>
+    <string name="select_unit" translatable="false">Select Unit *</string>
+    <string name="dimension" translatable="false">Carriage Dimensions</string>
+    <string name="width" translatable="false">Width</string>
+    <string name="rc_upload" translatable="false">Vehicle Registration Certificate Upload *</string>
+    <string name="upload_file" translatable="false">Upload File</string>
+    <string name="fc_document_upload" translatable="false">FC Document Upload *</string>
+    <string name="add" translatable="false">Add</string>
+    <string name="select_end_date" translatable="false">Select End Date</string>
+    <string name="document_name" translatable="false">Document Name</string>
+    <string name="document" translatable="false">Document / Maintenance</string>
+    <string name="start_date" translatable="false">Start Date</string>
+    <string name="end_date" translatable="false">End Date</string>
+    <string name="create_vehicle" translatable="false">Create Vehicle</string>
+    <string name="forgot_password" translatable="false">Forgot Password</string>
+    <string name="general_details" translatable="false">General Details</string>
+    <string name="document_details" translatable="false">Attributes/Document Details</string>
+    <string name="action_previous" translatable="false">Previous</string>
+    <string name="action_next" translatable="false">Next</string>
+    <string name="action_finish" translatable="false">Finish</string>
+    <string name="enter_vehicle_regno_mandatory" translatable="false">Enter vehicle registration number *</string>
+    <string name="err_select_manufacturer" translatable="false">Select manufacturer</string>
+    <string name="err_select_vehicle_class" translatable="false">Select vehicle class</string>
+    <string name="err_enter_vehicle_model" translatable="false">Enter vehicle model</string>
+    <string name="err_enter_vehicle_chassis_no" translatable="false">Enter vehicle chassis number</string>
+    <string name="err_chassis_no_already_exist" translatable="false">The entered chassis number already exists</string>
+    <string name="err_enter_vehicle_regno" translatable="false">Enter vehicle registration number</string>
+    <string name="err_regno_already_exist" translatable="false">The entered vehicle registration number already exists</string>
+    <string name="err_choose_vehicle_manufacture_date" translatable="false">Choose vehicle manufacture date</string>
+    <string name="err_enter_vehicle_engineno" translatable="false">Enter engine number</string>
+    <string name="err_engineno_already_exist" translatable="false">The entered engine number already exists</string>
+    <string name="err_choose_vehicle_reg_date" translatable="false">Choose vehicle registration date</string>
+    <string name="capacity_error" translatable="false">Maximum load capacity is 500 litres</string>
+    <string name="upload_rc_document" translatable="false">Upload vehicle Registration Certificate *</string>
+    <string name="upload_fc_document" translatable="false">Upload vehicle Fitness Certificate *</string>
+    <string name="insurance" translatable="false">Insurance</string>
+    <string name="battery" translatable="false">Battery</string>
+    <string name="ec" translatable="false">Emission Certificate</string>
+    <string name="fc" translatable="false">Fitness Certificate</string>
+    <string name="national_permit" translatable="false">National Permit</string>
+    <string name="oil" translatable="false">Oil</string>
+    <string name="roadtax" translatable="false">Road Tax</string>
+    <string name="state_permit" translatable="false">State Permit</string>
+    <string name="tyre" translatable="false">Tyre</string>
+    <string name="vehicle_image" translatable="false">Vehicle Image</string>
+    <string name="rc" translatable="false">RC</string>
+    <string name="select_file_to_upload" translatable="false">Select file to upload</string>
+    <string name="document_upload" translatable="false">Document Upload</string>
+    <string name="upload_document" translatable="false">Upload Document *</string>
+    <string name="weight_error" translatable="false">Weight should not be more than 40 kg</string>
+    <string name="select_rc_end_date" translatable="false">Select vehicle Registration Certificate end date</string>
+    <string name="upload_vehicle_reg_certificate" translatable="false">Upload vehicle Registration Certificate</string>
+    <string name="error_update" translatable="false">Unable to Update</string>
+    <string name="choose_end_date" translatable="false">Choose End Date</string>
+    <string name="err_select_unit_type" translatable="false">Select unit type.</string>
+    <string name="err_enter_capacity" translatable="false">Enter vehicle carrying capacity</string>
+    <string name="err_select_rc_enddate" translatable="false">Select Registration Certificate end date</string>
+    <string name="err_upload_rc_document" translatable="false">Upload Registration Certificate</string>
+    <string name="err_select_fc_enddate" translatable="false">Select Fitness Certificate end date</string>
+    <string name="err_upload_fc_document" translatable="false">Upload Fitness Certificate</string>
+    <string name="retry_message" translatable="false">Do you wish to retry?</string>
+    <string name="label_others" translatable="false">Others</string>
+    <string name="label_disclaimer" translatable="false">Disclaimer</string>
+    <string name="trip_tracking_for" translatable="false">Trip tracking for</string>
+    <string name="date_range" translatable="false">Date Range</string>
+    <string name="trip_time" translatable="false">Trip Time</string>
+    <string name="avg_speed" translatable="false">Average Speed</string>
+    <string name="trip_tracking_not_available" translatable="false">Trip tracking not available right now.</string>
+    <string name="label_help_faq" translatable="false">Help/FAQ</string>
+    <string name="label_privacy_policy" translatable="false">Privacy Policy</string>
+    <string name="label_terms_of_service" translatable="false">Terms of Service</string>
+    <string name="privacy_policy_underline" translatable="false"><u>Privacy Policy</u></string>
+    <string name="terms_of_service_underline" translatable="false"><u>Terms of Service   </u></string>
+    <string name="and" translatable="false">  &amp; </string>
+    <string name="resend_otp" translatable="false"><u>Resend OTP</u></string>
+    <string name="reset" translatable="false">Reset</string>
+    <string name="otp_sent_successfully" translatable="false">OTP sent successfully</string>
+    <string name="failed_to_send_otp" translatable="false">Failed to send OTP</string>
+    <string name="failed" translatable="false">Failed</string>
+    <string name="request_processed" translatable="false">Your request has been processed</string>
+    <string name="unable_to_process_request" translatable="false">Unable to process your request</string>
+    <string name="err_mobile_no_not_registered" translatable="false">The entered mobile number is not registered</string>
+    <string name="add_address" translatable="false">Add Address</string>
+    <string name="company_name_shipper" translatable="false">Company Name *</string>
+    <string name="company_address" translatable="false">Company Address *</string>
+    <string name="company_address_title" translatable="false">Company Address</string>
+    <string name="bank_details" translatable="false">Bank Details</string>
+    <string name="basic_details" translatable="false">Basic Details</string>
+    <string name="bank_name" translatable="false">Bank Name </string>
+    <string name="bank_branch" translatable="false">Bank Branch </string>
+    <string name="account_holder_name" translatable="false">Account Holder\'s Name </string>
+    <string name="account_no" translatable="false">Account Number </string>
+    <string name="ifsc" translatable="false">IFSC / RTGS Code </string>
+    <string name="person_name" translatable="false">Person Name *</string>
+    <string name="ph_no" translatable="false">Phone Number *</string>
+    <string name="contact_number" translatable="false">Contact Number</string>
+    <string name="contact_mail" translatable="false">Contact Email</string>
+    <string name="company_cin" translatable="false">Company CIN</string>
+    <string name="company_pan" translatable="false">Company PAN *</string>
+    <string name="company_gst" translatable="false">Company GSTIN</string>
+    <string name="company_gst_mandatory" translatable="false">Company GSTIN *</string>
+    <string name="gst_number" translatable="false">GSTIN</string>
+    <string name="gst_percentage" translatable="false">GST Percentage</string>
+    <string name="product_category_mandatory" translatable="false">Product Category *</string>
+    <string name="product_category" translatable="false">Product Category *</string>
+    <string name="add_shipper" translatable="false">Add Customer</string>
+    <string name="err_enter_company_address" translatable="false">Enter Company Address</string>
+    <string name="err_enter_city" translatable="false">Enter City</string>
+    <string name="err_enter_state" translatable="false">Enter State</string>
+    <string name="err_enter_bank_name" translatable="false">Enter Bank Name</string>
+    <string name="err_enter_bank_branch" translatable="false">Enter Bank Branch</string>
+    <string name="err_enter_account_holder_name" translatable="false">Enter Account Holder\'s Name</string>
+    <string name="err_enter_account_no" translatable="false">Enter Account Number</string>
+    <string name="err_enter_ifsc_rgst_code" translatable="false">Enter IFSC/RGST Code</string>
+    <string name="err_enter_person_name" translatable="false">Enter Person Name</string>
+    <string name="err_enter_phone_no" translatable="false">Enter Phone Number</string>
+    <string name="err_enter_valid_phone_no" translatable="false">Enter valid phone number</string>
+    <string name="shipper_added_successfully" translatable="false">Customer added successfully</string>
+    <string name="shipper_updated_successfully" translatable="false">Customer updated successfully</string>
+    <string name="shipper" translatable="false">Customer</string>
+    <string name="shipper_list" translatable="false">Customer List</string>
+    <string name="company_pancard" translatable="false">Company PAN</string>
+    <string name="company_addr" translatable="false">Company Address</string>
+    <string name="contact_person" translatable="false">Contact Person</string>
+    <string name="update_shipper" translatable="false">Update Customer</string>
+    <string name="select_customer" translatable="false">Select Customer</string>
+    <string name="select_pickup_mandatory" translatable="false">Select Pickup *</string>
+    <string name="select_customer_mandatory" translatable="false">Select Customer Name*</string>
+    <string name="select_customer_name" translatable="false">Select Customer Name *</string>
+    <string name="select_user" translatable="false">Select User</string>
+    <string name="select_branch" translatable="false">Select Branch</string>
+    <string name="select_source_sub_branch" translatable="false">Select Source Sub Branch</string>
+    <string name="select_dest_sub_branch" translatable="false">Select Destination Sub Branch</string>
+
+    <string name="source_sub_branch_mandatory" translatable="false">Source Sub Branch *</string>
+    <string name="destination_sub_branch_mandatory" translatable="false">Destination Sub Branch *</string>
+    <string name="start_sequence" translatable="false">Start Sequence</string>
+    <string name="end_sequence" translatable="false">End Sequence</string>
+    <string name="start_seq_lessthan_end_seq" translatable="false">Start sequence should be less than end sequence</string>
+    <string name="err_select_start_sequence" translatable="false">Select Start Sequence</string>
+    <string name="err_select_end_sequence" translatable="false">Select End Sequence</string>
+    <string name="start_sequence_mandatory" translatable="false">Start Sequence *</string>
+    <string name="end_sequence_mandatory" translatable="false">End Sequence *</string>
+    <string name="select_vehicle_number" translatable="false">Select Vehicle Number</string>
+    <string name="select_branch_mandatory" translatable="false">Select Branch *</string>
+    <string name="select_sub_branch_mandatory" translatable="false">Select Sub Branch Name *</string>
+    <string name="select_sub_branch_name" translatable="false">Select Sub Branch Name *</string>
+    <string name="select_sub_branch" translatable="false">Select Sub Branch</string>
+    <string name="choose_sub_branch" translatable="false">Choose Sub Branch</string>
+
+    <string name="no_shippers_available" translatable="false"> Customer data not available. Please add a customer from the Administration menu</string>
+    <string name="no_shippers_data" translatable="false"> Customer data not available. Please add a customer from the Administration menu.</string>
+    <string name="err_weight_cannot_be_zero" translatable="false">Material weight cannot be zero.</string>
+    <string name="err_enter_valid_weight" translatable="false">Enter a valid material weight</string>
+    <string name="err_enter_lr_prefix" translatable="false">Enter LR Prefix</string>
+    <string name="err_enter_last_used_seqno" translatable="false">Enter Last Used Sequence No.</string>
+    <string name="err_enter_no_of_lrs" translatable="false">Enter Number of LR\'s</string>
+    <string name="err_enter_requested_lr_stock" translatable="false">Enter Requested LR Stock</string>
+
+    <string name="address" translatable="false">Address</string>
+    <string name="address_label" translatable="false">Address *</string>
+    <string name="err_select_location" translatable="false">Select Location</string>
+    <string name="update_address" translatable="false">Update Address</string>
+    <string name="edit_address" translatable="false">Edit Address</string>
+    <string name="no_address_available" translatable="false"> Customer address not available. Please add an address from the Administration menu.</string>
+    <string name="user" translatable="false">User</string>
+    <string name="stationary_lr" translatable="false">LR Stationary Master</string>
+
+    <string name="branch" translatable="false">Branch</string>
+    <string name="select_lr_number_mandatory" translatable="false">Select LR Number *</string>
+    <string name="assign_user_to_branch" translatable="false">Assign users to Branch</string>
+    <string name="user_list" translatable="false">User List</string>
+    <string name="err_enter_first_name" translatable="false">Enter First Name</string>
+    <string name="err_enter_last_name" translatable="false">Enter Last Name</string>
+    <string name="user_added_successfully" translatable="false">User added successfully</string>
+    <string name="user_updated_successfully" translatable="false">User updated successfully</string>
+    <string name="no_user_data" translatable="false"> User data not available. Please add a user from the Administration menu.</string>
+    <string name="no_warehouse_data" translatable="false"> Warehouse data not available. Please add a warehouse from the Administration menu.</string>
+    <string name="update_user" translatable="false">Update User</string>
+    <string name="last_name" translatable="false">Last Name</string>
+    <string name="first_name" translatable="false">First Name *</string>
+    <string name="enter_zone_name" translatable="false">Enter Zone Name</string>
+    <string name="no_address_data" translatable="false"> Address not available. Please add an address from the Administration menu or select an address on the map</string>
+    <string name="select_address" translatable="false">Select Address</string>
+    <string name="branch_location" translatable="false">Branch Location</string>
+    <string name="branch_name" translatable="false">Branch Name</string>
+    <string name="branch_list" translatable="false">Branch List</string>
+    <string name="driving_licenses" translatable="false">Driving License</string>
+    <string name="add_branch" translatable="false">Add Branch</string>
+    <string name="err_select_branch_location" translatable="false">Select branch location</string>
+    <string name="err_enter_branch_name" translatable="false">Enter branch name</string>
+    <string name="no_branch_available" translatable="false"> Branch details not available. Please add a branch from the Administration menu </string>
+    <string name="update_branch" translatable="false">Update Branch</string>
+    <string name="select_remark" translatable="false">Select Remark</string>
+    <string name="additional_remarks" translatable="false">Additional Remarks</string>
+    <string name="close_trips" translatable="false">Close Trip</string>
+    <string name="branch_name_mandatory" translatable="false">Branch Name *</string>
+    <string name="branch_code_mandatory" translatable="false">Branch Code *</string>
+    <string name="branch_pan_mandatory" translatable="false">Branch PAN *</string>
+    <string name="branch_gst_mandatory" translatable="false">Branch GSTIN *</string>
+    <string name="branch_address_mandatory" translatable="false">Branch Address *</string>
+    <string name="edit_branch" translatable="false">Edit Branch</string>
+    <string name="edit_warehouse" translatable="false">Edit Warehouse</string>
+    <string name="edit_sub_branch" translatable="false">Edit Sub Branch</string>
+    <string name="edit_shipper" translatable="false">Edit Customer Details</string>
+    <string name="view_drop_file" translatable="false"><u>Click here to download and view the drops file.</u></string>
+    <string name="enable" translatable="false"><u>Enable</u></string>
+    <string name="disable" translatable="false"><u>Disable</u></string>
+    <string name="choose_consignor_or_shipper" translatable="false">Choose Customer</string>
+    <string name="choose_location_branch_warehouse" translatable="false">Choose Location / Branch / Warehouse</string>
+    <string name="enter_no_of_lrs" translatable="false">Enter no. of LR\'s to be generated</string>
+    <string name="enter_no_of_lrs_mandatory" translatable="false">Enter no. of LR\'s *</string>
+    <string name="no_of_lrs" translatable="false">Number of LR\'s</string>
+    <string name="total_allocated_lr" translatable="false">Total Allocated LR</string>
+
+    <string name="enter_no_of_boxes" translatable="false">Enter the number of boxes</string>
+    <string name="copy" translatable="false">Copy</string>
+    <string name="manual_lr_generation_form" translatable="false">Manual LR Generation Form</string>
+    <string name="lr_format" translatable="false">LR Format</string>
+    <string name="lr_format_mand" translatable="false">LR Format *</string>
+    <string name="enter_lr_prefix" translatable="false">Enter LR Prefix *</string>
+    <string name="request_lr_count" translatable="false">Request LR Count *</string>
+
+    <string name="enter_customer_lr_format" translatable="false">Enter LR Format</string>
+    <string name="lr_generation_form" translatable="false">LR Generation Form</string>
+    <string name="lr_generation" translatable="false">LR Generation</string>
+    <string name="find_below_the_lrnumber_generated" translatable="false">Find below the LR no\'s generated</string>
+    <string name="err_enter_lr_format" translatable="false">Enter LR Format</string>
+    <string name="err_enter_lr_format_with_ex" translatable="false">Enter LR Format (ex : NEIN/LR )</string>
+    <string name="select_lr_number" translatable="false">Select LR Number</string>
+    <string name="err_select_lr_number" translatable="false">Select LR Number</string>
+    <string name="lr_number_exist" translatable="false">The LR number entered is in use for another drop location.</string>
+    <string name="company_details" translatable="false">Company Details</string>
+    <string name="company_address_details" translatable="false">Company Address</string>
+    <string name="company_document_details" translatable="false">Company Document Details</string>
+    <string name="company_bank_details" translatable="false">Company Bank Details</string>
+    <string name="logo" translatable="false">Logo</string>
+    <string name="registration_certificate" translatable="false">Registration Certificate</string>
+    <string name="exit" translatable="false">Exit</string>
+    <string name="warning_exit_msg" translatable="false">If you exit, the data you have entered will be cleared. Do you want to exit?</string>
+    <string name="err_enter_consignee_gstno" translatable="false">Enter a valid consignee GSTIN</string>
+    <string name="customer_lr_consignor_copy_link" translatable="false"><u>Consignor LR Copy</u></string>
+    <string name="customer_lr_account_copy_link" translatable="false"><u>Accounts LR Copy</u></string>
+    <string name="customer_lr_branch_copy_link" translatable="false"><u>Branch LR Copy</u></string>
+    <string name="customer_lr_consignee_copy_link" translatable="false"><u>Consignee LR Copy</u></string>
+    <string name="customer_pod_copy_link" translatable="false"><u>POD Copy</u></string>
+    <string name="customer_lr_all_copy_link" translatable="false"><u>Print All LR</u></string>
+    <string name="driver_pod" translatable="false"><u>Driver POD</u></string>
+
+    <string name="lr_links" translatable="false">LR Links</string>
+    <string name="err_pickup_drop_shouldbe_different" translatable="false">Pickup and Drop addresses cannot be the same. </string>
+    <string name="err_no_lr_available_for_this_shipper" translatable="false">No LR\'s available for this customer</string>
+    <string name="view_address" translatable="false">View Addresses</string>
+    <string name="trip_not_started" translatable="false">Trip has not yet started.</string>
+    <string name="new_bookings" translatable="false">Booking Creation</string>
+    <string name="lr_number" translatable="false">LR Number</string>
+    <string name="trip_type" translatable="false">Trip Type</string>
+    <string name="error_updated_version" translatable="false">The application is already updated.</string>
+    <string name="new_app_version_msg" translatable="false">New App version is available. Click Download to update now.</string>
+    <string name="action_download" translatable="false">Download</string>
+    <string name="msg_loading" translatable="false">Loading, Please wait!</string>
+    <string name="consignee_email_id" translatable="false">Consignee Email ID </string>
+    <string name="err_enter_value_greater_than_zero" translatable="false">Please enter a value greater than zero </string>
+    <string name="err_select_weight" translatable="false">Select Weight</string>
+    <string name="download" translatable="false">Download</string>
+    <string name="export_format" translatable="false">Export Format</string>
+    <string name="create_password" translatable="false">Create Password *</string>
+    <string name="assign_vehicle" translatable="false">Assign Vehicle</string>
+    <string name="enter_address" translatable="false">Enter Address *</string>
+    <string name="export" translatable="false">Export</string>
+    <string name="consignee_mobile_no" translatable="false">Drop Consignee\'s Mobile No *</string>
+    <string name="err_enter_gstno" translatable="false">Enter GSTIN</string>
+    <string name="err_upload_gst" translatable="false">Upload GST Registration Certificate</string>
+    <string name="phone_no" translatable="false">Phone No. *</string>
+    <string name="assign_vehicle_to_warehouse" translatable="false">Assign Vehicle to Warehouse</string>
+    <string name="select_consignor_or_shipper" translatable="false">Select Customer Name*</string>
+    <string name="select_state_mandatory" translatable="false">Select State *</string>
+    <string name="select_city_mandatory" translatable="false">Select City *</string>
+    <string name="auto_lr" translatable="false">Auto LR</string>
+    <string name="manual_lr" translatable="false">Manual LR</string>
+    <string name="manual_lr_mand" translatable="false">Manual LR *</string>
+
+    <string name="manual_tracking" translatable="false">Manual Tracking</string>
+    <string name="valid_from" translatable="false">Valid From</string>
+    <string name="valid_to" translatable="false">Valid To</string>
+    <string name="enter_manual_lr_format_with_ex" translatable="false">Enter Manual LR Number (ex : NEIN/LR )</string>
+    <string name="consignor_mobile_number" translatable="false">Consignor Mobile No. </string>
+    <string name="consignor_email_id" translatable="false">Consignor Email ID</string>
+    <string name="err_enter_consignor_mobile_number" translatable="false">Enter Consignor Mobile Number</string>
+    <string name="err_select_customer" translatable="false">Select Customer</string>
+    <string name="err_select_sub_branch" translatable="false">Select Sub Branch</string>
+    <string name="err_select_branch" translatable="false">Select branch</string>
+
+    <string name="err_select_source_sub_branch" translatable="false">Select Source Sub Branch</string>
+    <string name="err_select_dest_sub_branch" translatable="false">Select Destination Sub Branch</string>
+    <string name="err_source_dest_sub_branch_cannot_be_same" translatable="false">Source &amp; destination sub branch cannot be same</string>
+
+    <string name="err_enter_auto_or_manual_lr" translatable="false">Please select either Auto LR or Manual LR</string>
+    <string name="err_enter_manual_lr" translatable="false">Please Enter Manual LR Number</string>
+    <string name="err_select_manual_lr" translatable="false">Please Select Manual LR Number</string>
+
+    <string name="err_select_pregen_lr" translatable="false">Select Pre Generated LR Number</string>
+    <string name="err_select_auto_or_manual_lr" translatable="false">Please select either Auto or Manual LR</string>
+    <string name="err_select_lr_type" translatable="false">Please choose LR Type</string>
+    <string name="address_name" translatable="false">Address Name</string>
+    <string name="err_enter_location_name" translatable="false">Enter location name</string>
+    <string name="err_enter_location" translatable="false">Enter location</string>
+    <string name="err_enter_warehouse_name" translatable="false">Enter warehouse name</string>
+    <string name="driver_pod_dc" translatable="false"><u>Driver POD/DC</u></string>
+    <string name="select_weight_type" translatable="false">Select weight type</string>
+    <string name="vehicle_capacity_reached" translatable="false">Vehicle\'s maximum loading capacity reached</string>
+    <string name="max_lr_10" translatable="false">A maximun of 10 LR\'s can be generated at a time.</string>
+    <string name="analytics" translatable="false">Analytics</string>
+    <string name="err_select_material_type" translatable="false">Select material type</string>
+    <string name="enter_material_type" translatable="false">Enter material type *</string>
+    <string name="select_vehicle" translatable="false">Select Vehicle</string>
+    <string name="select_driver" translatable="false">Select Driver</string>
+
+    <string name="select_vehicle_mandatory" translatable="false">Select Vehicle *</string>
+    <string name="select_driver_mandatory" translatable="false">Select Driver Name*</string>
+
+    <string name="err_select_vehicle" translatable="false">Select Vehicle </string>
+    <string name="edit_ewaybill" translatable="false"><u>Edit E-Way Bill</u></string>
+    <string name="add_ewaybill" translatable="false"><u>Add E-Way Bill No</u></string>
+    <string name="add_dimensions_mandatory" translatable="false"><u>Add Dimensions *</u></string>
+    <string name="revenue_expense" translatable="false">Revenue &amp; Expense</string>
+    <string name="add_invoice" translatable="false"><u>Add Invoice</u></string>
+    <string name="add_invoice_number" translatable="false"><u>Add Invoice Number</u></string>
+    <string name="edit_invoice" translatable="false"><u>Edit Invoice</u></string>
+    <string name="enter_ewaybill_no" translatable="false">Enter E-Way Bill Number *</string>
+    <string name="err_enter_ewaybill_no" translatable="false">Enter E-Way Bill Number</string>
+    <string name="err_enter_invoice_number" translatable="false">Enter Invoice Number</string>
+    <string name="err_enter_invoice_value" translatable="false">Enter Invoice Value</string>
+    <string name="err_enter_invoice_date" translatable="false">Enter Invoice Date</string>
+    <string name="err_select_date" translatable="false">Select date</string>
+    <string name="enter_invoice_no" translatable="false">Enter Invoice Number *</string>
+    <string name="chargeable_weight" translatable="false">Chargeable Weight</string>
+    <string name="vendor_lr_number" translatable="false">Vendor LR Number</string>
+    <string name="vendor_lr_docket_number" translatable="false">Vendor LR Number/Docket Number</string>
+    <string name="shipment_load" translatable="false">Shipment Load</string>
+    <string name="load_type" translatable="false">Load Type</string>
+    <string name="round_trip_number" translatable="false">Round Trip Number</string>
+    <string name="vendor_lr_number_mandatory" translatable="false">Vendor LR Number *</string>
+    <string name="err_enter_vendor_lr_number" translatable="false">Enter Vendor LR Number</string>
+    <string name="err_enter_vendor_lr_date" translatable="false">Enter Vendor LR Date</string>
+    <string name="sku_code" translatable="false">SKU Code</string>
+    <string name="carton_code" translatable="false">Carton Code</string>
+    <string name="vendor_lr_date" translatable="false">Vendor LR Date</string>
+    <string name="vendor_lr_date_mandatory" translatable="false">Vendor LR Date *</string>
+    <string name="actual_weight" translatable="false">Actual Weight</string>
+    <string name="invoice_number" translatable="false">Invoice No.</string>
+    <string name="invoice_value" translatable="false">Invoice Value</string>
+    <string name="invoice_number_mandatory" translatable="false">Invoice No. *</string>
+    <string name="invoice_value_mandatory" translatable="false">Invoice Value *</string>
+    <string name="invoice_date_mandatory" translatable="false">Invoice Date *</string>
+    <string name="ewaybill_number" translatable="false">E-Way Bill No.</string>
+    <string name="view_ewaybill" translatable="false"><u>View E-Way Bill</u></string>
+    <string name="no_of_packages" translatable="false">No of Packages</string>
+    <string name="view_warehouse" translatable="false">View Warehouse</string>
+    <string name="view_sub_branch" translatable="false">View Sub Branch</string>
+
+    <string name="view_invoice" translatable="false"><u>View Invoice</u></string>
+    <string name="invoice_numbers" translatable="false"><u>Invoice Numbers</u></string>
+    <string name="ewaybill_numbers" translatable="false"><u>Eway-Bill Numbers</u></string>
+
+    <string name="transfer_underline" translatable="false"><u>TRANSFER</u></string>
+    <string name="transfer" translatable="false">Transfer</string>
+    <string name="request_lr_number" translatable="false"><u>Request LR Number</u></string>
+    <string name="request_lr" translatable="false"><u>Request LR</u></string>
+    <string name="requested_lr_counts" translatable="false"><u>Requested LR Counts</u></string>
+    <string name="requested_lr_count" translatable="false">Requested LR Count</string>
+    <string name="requested_lr_count_mand" translatable="false">Requested LR Count *</string>
+
+    <string name="view_km" translatable="false">View Km</string>
+    <string name="update_warehouse" translatable="false">Update Warehouse</string>
+    <string name="consignor_name" translatable="false">Consignor Name</string>
+    <string name="consignor_consignee_name" translatable="false">Consignor/Consignee Name</string>
+    <string name="consignor_consignee_name_mandatory" translatable="false">Consignor/Consignee Name *</string>
+    <string name="sub_customer_name_mandatory" translatable="false">Sub Customer Name *</string>
+    <string name="consignor_consignee_email" translatable="false">Consignor/Consignee Email</string>
+    <string name="customer_code_mandatory" translatable="false">Customer Code *</string>
+    <string name="consignor_consignee_phone" translatable="false">Consignor/Consignee Phone</string>
+    <string name="consignor_consignee_phone_mandatory" translatable="false">Consignor/Consignee Phone *</string>
+    <string name="dl_number_mandatory" translatable="false">DL Number *</string>
+    <string name="dl_number" translatable="false">DL Number</string>
+    <string name="location_name" translatable="false">Location Name *</string>
+    <string name="location" translatable="false">Location</string>
+    <string name="enter_lr_prefix_mandatory" translatable="false">Enter LR Prefix *</string>
+    <string name="enter_last_used_seqno_mandatory" translatable="false">Enter Last Used Sequence Number *</string>
+    <string name="requested_lr_stock_mand" translatable="false">Requested LR Stock *</string>
+
+    <string name="location_mandatory" translatable="false">Location *</string>
+    <string name="zone_name_mandatory" translatable="false">Zone Name *</string>
+    <string name="enter_city_mandatory" translatable="false">Enter City *</string>
+    <string name="zone_name" translatable="false">Zone Name</string>
+    <string name="zone" translatable="false">Zone</string>
+    <string name="contact_code" translatable="false">Contact Code</string>
+    <string name="code_mandatory" translatable="false">Code *</string>
+    <string name="sub_customer_code_mandatory" translatable="false">Sub Customer Code *</string>
+    <string name="code" translatable="false">Code</string>
+    <string name="err_enter_code" translatable="false">Enter Code </string>
+    <string name="pre_gen_lr" translatable="false">Pre Generated LR</string>
+    <string name="tracking_enabled" translatable="false">Tracking Enabled</string>
+    <string name="tracking_not_enabled" translatable="false">Tracking Not Enabled</string>
+    <string name="err_enter_dl_number" translatable="false">Enter DL Number</string>
+    <string name="password_mandatory" translatable="false">Password *</string>
+
+    <string name="user_type" translatable="false">User Type</string>
+    <string name="role_type" translatable="false">Role</string>
+    <string name="err_select_dob" translatable="false">Select DOB</string>
+    <string name="select_vendor_mandatory" translatable="false">Select Vendor *</string>
+    <string name="select_vendor_name" translatable="false">Select Vendor Name *</string>
+    <string name="select_vendor" translatable="false">Select Vendor</string>
+    <string name="err_select_role_type" translatable="false">Please select role type</string>
+    <string name="tracking_status" translatable="false">Tracking status for this trip is not available right now. Please try after 5 mins</string>
+    <string name="download_booking_template" translatable="false">Download Bulk Booking Template</string>
+    <string name="upload_booking_template" translatable="false">Upload Bulk Booking File *</string>
+    <string name="vendor" translatable="false">Vendor</string>
+    <string name="vendor_list" translatable="false">Vendor List</string>
+    <string name="customer_zone_list" translatable="false">Customer Zone List</string>
+    <string name="vendor_zone_list" translatable="false">Vendor Zone List</string>
+    <string name="zone_list" translatable="false">Zone List</string>
+    <string name="state_list" translatable="false">State List</string>
+    <string name="add_vendor" translatable="false">Add Vendor</string>
+    <string name="add_vendor_lr_details" translatable="false"><u>Add Vendor LR Details</u></string>
+    <string name="add_vendor_lr" translatable="false"><u>Add Vendor LR</u></string>
+    <string name="edit_consignor_consignee_details" translatable="false">Edit Consignor/Consignee Details</string>
+    <string name="update_vendor" translatable="false">Update Vendor</string>
+    <string name="update_state" translatable="false">Update State</string>
+    <string name="err_add_data" translatable="false">Unable to add data</string>
+    <string name="vendor_added_successfully" translatable="false">Vendor added successfully</string>
+    <string name="vendor_updated_successfully" translatable="false">Vendor updated successfully</string>
+    <string name="no_vendors_data" translatable="false"> No Vendor data available. Please add a vendor from the Administration menu.</string>
+    <string name="warning" translatable="false">Warning</string>
+    <string name="press_back" translatable="false">If you exit, your data will be lost. Do you want to exit?</string>
+    <string name="select_permit_type" translatable="false">Select Permit Type *</string>
+    <string name="select_contract_type" translatable="false">Contract Type *</string>
+    <string name="err_contract_type" translatable="false">Select Contract Type</string>
+    <string name="err_select_vendor" translatable="false">Select Vendor Name</string>
+    <string name="err_permit_type" translatable="false">Select Permit Type</string>
+    <string name="retry" translatable="false">Retry</string>
+    <string name="add_images" translatable="false">Add Images</string>
+    <string name="choose_images" translatable="false">Choose image from Camera/Gallery</string>
+    <string name="permit" translatable="false">Permit</string>
+    <string name="weight_in_kg" translatable="false">Weight(In kG)</string>
+    <string name="select_start_date" translatable="false">Select Start Date</string>
+    <string name="select_expiry_date" translatable="false">Select Expiry Date</string>
+    <string name="branch_user" translatable="false">Branch User</string>
+    <string name="driver" translatable="false">Driver</string>
+    <string name="warehouse_location" translatable="false">Warehouse Location</string>
+    <string name="ftl" translatable="false">FTL</string>
+    <string name="ltl" translatable="false">LTL</string>
+    <string name="milkrun" translatable="false">MILK RUN</string>
+    <string name="dedicated" translatable="false">DEDICATED</string>
+    <string name="roundtrip" translatable="false">ROUND TRIP</string>
+    <string name="driving_license_no" translatable="false">Driving License Number</string>
+    <string name="add_driver" translatable="false">Add Driver</string>
+    <string name="err_first_name" translatable="false">Enter First Name</string>
+    <string name="err_phone_no" translatable="false">Enter Phone Number</string>
+    <string name="err_email_id" translatable="false">Enter Email ID</string>
+    <string name="err_empty_password" translatable="false">Enter Password</string>
+    <string name="err_password" translatable="false">Password should be minimum 6 Characters</string>
+    <string name="err_confirm_pass" translatable="false">Passwords do not match with. Try again.</string>
+    <string name="add_documents" translatable="false">Add Trip Documents</string>
+    <string name="err_dob" translatable="false">Enter Date of Birth</string>
+    <string name="drivers_list" translatable="false">Driver List</string>
+    <string name="drivers" translatable="false">Driver</string>
+    <string name="first_names" translatable="false">First Name</string>
+    <string name="phone_number" translatable="false">Phone No.</string>
+    <string name="vehicle_assigned" translatable="false">Vehicle Assigned</string>
+    <string name="action_edit" translatable="false">Edit</string>
+    <string name="view_states" translatable="false">View States</string>
+    <string name="unable_to_change" translatable="false">Unable to change status</string>
+    <string name="view_document" translatable="false">View Documents</string>
+    <string name="error_no_document" translatable="false">No documents to download…</string>
+    <string name="unable_to_fetch_data" translatable="false">Unable to fetch data</string>
+    <string name="update_document" translatable="false">Update Document</string>
+    <string name="assigneed_drivers" translatable="false">ASSIGNED DRIVERS</string>
+    <string name="available_drivers" translatable="false">AVAILABLE DRIVERS</string>
+    <string name="assign_driver" translatable="false">Assign Driver</string>
+    <string name="select_veh" translatable="false">Select Vehicle</string>
+    <string name="nothing_selected" translatable="false">Nothing Selected</string>
+    <string name="assign_driver_to_vehicle" translatable="false">Assign driver to vehicle</string>
+    <string name="err_add_document" translatable="false">You need to add at least 1 document</string>
+    <string name="permit_type" translatable="false">Permit Type</string>
+    <string name="model_sub_model" translatable="false">Model &amp; Sub Model</string>
+    <string name="registration_number" translatable="false">Vehicle Registration Number</string>
+    <string name="manufacture_date" translatable="false">Vehicle Manufacture Date</string>
+    <string name="registration_date" translatable="false">Vehicle Registration Date</string>
+    <string name="chassis_number" translatable="false">Vehicle Chassis Number</string>
+    <string name="engine_number" translatable="false">Vehicle Engine Number</string>
+    <string name="contract_type" translatable="false">Contract Type</string>
+    <string name="update_vehicle" translatable="false">Update Vehicle</string>
+    <string name="sending_request" translatable="false">Sending Request</string>
+    <string name="err_enter_valid_otp" translatable="false">Enter a valid OTP</string>
+    <string name="select_role_type" translatable="false">Select Role Type *</string>
+    <string name="select_branch_list" translatable="false">Select Branch *</string>
+    <string name="branch_heads" translatable="false">Branch Head</string>
+    <string name="branch_users" translatable="false">Branch User</string>
+    <string name="branch_admins" translatable="false">Branch Admin</string>
+    <string name="add_customer_gta" translatable="false">Add Customer GTA</string>
+    <string name="ftl_commercial" translatable="false">FTL Commercial</string>
+    <string name="ftl_commercial_customer_list" translatable="false">FTL Commercial - Customer List</string>
+    <string name="ftl_commercial_vendor_list" translatable="false">FTL Commercial - Vendor List</string>
+    <string name="customer_list" translatable="false">Customer List</string>
+    <string name="customer_name" translatable="false">Customer Name</string>
+    <string name="customer_name_mandatory" translatable="false">Customer Name *</string>
+    <string name="vehicle_type" translatable="false">Vehicle Type</string>
+    <string name="rate" translatable="false">Rate(\u20B9)</string>
+    <string name="tat" translatable="false">TAT</string>
+    <string name="tat_mandatory" translatable="false">TAT *</string>
+
+    <string name="distance_km" translatable="false">Distance (Km)</string>
+    <string name="vendor_name" translatable="false">Vendor Name</string>
+    <string name="select_origin_address" translatable="false">Origin Address *</string>
+    <string name="select_destination_address" translatable="false">To Address *</string>
+    <string name="customer_rate" translatable="false">Customer Rate/Kg *</string>
+    <string name="vendor_rate" translatable="false">Vendor Rate(\u20B9) *</string>
+    <string name="customer_tat" translatable="false">Customer TAT *</string>
+    <string name="customers_tat" translatable="false">Customer TAT </string>
+    <string name="vendor_tat" translatable="false">Vendor TAT(Days) *</string>
+    <string name="distance_km_mand" translatable="false">Distance (km) *</string>
+    <string name="distance_in_km" translatable="false">Distance in Kilometer </string>
+    <string name="err_select_origin_address" translatable="false">Select origin address</string>
+    <string name="err_select_destination_address" translatable="false">Select destination address</string>
+    <string name="err_enter_distance_km" translatable="false">Enter Distance</string>
+    <string name="err_enter_customer_rate" translatable="false">Enter Customer Rate</string>
+    <string name="err_enter_vendor_rate" translatable="false">Enter Vendor Rate</string>
+    <string name="err_enter_customer_tat" translatable="false">Enter Customer TAT</string>
+    <string name="err_enter_vendor_tat" translatable="false">Enter Vendor TAT</string>
+    <string name="add_ftl_commercial" translatable="false">Add FTL Commercial</string>
+    <string name="create_customer_zone" translatable="false">Create Zone For Customer</string>
+    <string name="create_vendor_zone" translatable="false">Create Zone For Vendor</string>
+    <string name="add_ltl_commercial" translatable="false">Add LTL Commercial</string>
+    <string name="ftl_manual_tracking" translatable="false">FTL Manual Tracking</string>
+
+    <string name="err_select_slab_size" translatable="false">Select Slab Size</string>
+    <string name="err_select_uom" translatable="false">Select UoM</string>
+    <string name="err_select_slab_pricing_type" translatable="false">Select slab pricing type</string>
+    <string name="err_enter_uom_from" translatable="false">Enter UoM From</string>
+    <string name="err_enter_uom_to" translatable="false">Enter UoM To</string>
+    <string name="ltl_commercial" translatable="false">LTL Commercial</string>
+    <string name="ltl_commercial_customer_list" translatable="false">LTL Commercial - Customer List</string>
+    <string name="ltl_commercial_vendor_list" translatable="false">LTL Commercial - Vendor List</string>
+    <string name="ftl_customer_list" translatable="false">FTL Customer List</string>
+    <string name="ftl_vendor_list" translatable="false">FTL Vendor List</string>
+    <string name="ltl_customer_list" translatable="false">LTL Customer List</string>
+    <string name="ltl_vendor_list" translatable="false">LTL Vendor List</string>
+    <string name="accept" translatable="false">Accept</string>
+    <string name="approve" translatable="false">Approve</string>
+    <string name="reject" translatable="false">Reject</string>
+    <string name="update" translatable="false">Update</string>
+    <string name="unable_to_add_data" translatable="false">Unable to add data</string>
+    <string name="unable_to_upload" translatable="false">Unable to upload file</string>
+    <string name="unable_to_update_data" translatable="false">Unable to update data</string>
+    <string name="unable_to_approve" translatable="false">Unable to approve</string>
+    <string name="unable_to_reject" translatable="false">Unable to reject</string>
+    <string name="origin_address" translatable="false">Origin Address</string>
+    <string name="destination_address" translatable="false">Destination Address</string>
+    <string name="kilometer" translatable="false">Kilometer</string>
+    <string name="customer_rates" translatable="false">Customer Rate(\u20B9)</string>
+    <string name="vendor_rates" translatable="false">Vendor Rate(\u20B9)</string>
+    <string name="tat_in_days" translatable="false">TAT(In Days)</string>
+    <string name="update_ftl_commercial" translatable="false">Update FTL</string>
+    <string name="update_ltl_commercial" translatable="false">Update LTL</string>
+    <string name="old_value" translatable="false">Old Value</string>
+    <string name="new_value" translatable="false">New Value</string>
+    <string name="ask_approve_changes" translatable="false">Are you sure want to approve the changes?</string>
+    <string name="select_slab_size" translatable="false">Select Slab Size *</string>
+    <string name="select_slab_pricing_type" translatable="false">Select Slab Pricing Type *</string>
+    <string name="uom_from" translatable="false">UOM From *</string>
+    <string name="uom_to" translatable="false">UOM To *</string>
+    <string name="select_uom" translatable="false">Select UoM *</string>
+    <string name="customer_conversion_factor" translatable="false">Customer Conversion Factor *</string>
+    <string name="customer_rate_kg" translatable="false">Customer Rate/Kg *</string>
+    <string name="customer_fov" translatable="false">Customer FOV(%) *</string>
+    <string name="customer_fsc" translatable="false">Customer FSC(%) *</string>
+    <string name="customer_oda" translatable="false">Customer ODA</string>
+    <string name="customer_docker_charges" translatable="false">Customer Docket Charges</string>
+    <string name="customer_handling_charges" translatable="false">Customer Handling Charges</string>
+    <string name="customer_management_fee" translatable="false">Customer Management Fee</string>
+    <string name="vendor_conversion_factor" translatable="false">Vendor Conversion Factor *</string>
+    <string name="vendor_rate_kg" translatable="false">Vendor Rate/Kg *</string>
+    <string name="vendor_fov" translatable="false">Vendor FOV *</string>
+    <string name="vendor_fsc" translatable="false">Vendor FSC *</string>
+    <string name="vendor_oda" translatable="false">Vendor ODA</string>
+    <string name="vendor_docker_charges" translatable="false">Vendor Docket Charges</string>
+    <string name="vendor_handling_charges" translatable="false">Vendor Handling Charges</string>
+    <string name="vendor_management_fee" translatable="false">Vendor Management Fee</string>
+    <string name="err_enter_customer_conversion_factor" translatable="false">Enter customer conversion factor</string>
+    <string name="err_enter_customer_fov" translatable="false">Enter Customer FOV</string>
+    <string name="err_enter_customer_fsc" translatable="false">Enter Customer FSC</string>
+    <string name="err_enter_customer_oda" translatable="false">Enter Customer ODA</string>
+    <string name="err_enter_customer_docker_charges" translatable="false">Enter customer docket charges</string>
+    <string name="err_enter_customer_handling_charges" translatable="false">Enter customer handling charges</string>
+    <string name="err_enter_customer_management_fee" translatable="false">Enter customer management fee</string>
+    <string name="err_enter_vendor_conversion_factor" translatable="false">Enter vendor conversion factor</string>
+    <string name="err_enter_vendor_fov" translatable="false">Enter vendor FOV</string>
+    <string name="err_enter_vendor_fsc" translatable="false">Enter vendor FSC</string>
+    <string name="err_enter_vendor_oda" translatable="false">Enter vendor ODA</string>
+    <string name="err_enter_vendor_docker_charges" translatable="false">Enter vendor docket charges</string>
+    <string name="err_enter_vendor_handling_charges" translatable="false">Enter vendor handling charges</string>
+    <string name="err_enter_vendor_management_fee" translatable="false">Enter vendor management fee</string>
+    <string name="conversion_factor" translatable="false">Conversion Factor</string>
+    <string name="pricing_type" translatable="false">Pricing Type</string>
+    <string name="size" translatable="false">Size</string>
+    <string name="uom_froms" translatable="false">UoM From</string>
+    <string name="uom_tos" translatable="false">UoM To</string>
+    <string name="rate_per_kg" translatable="false">Rate/ Kg</string>
+    <string name="fov" translatable="false">FOV</string>
+    <string name="fsc" translatable="false">FSC</string>
+    <string name="oda" translatable="false">ODA</string>
+    <string name="basic_freight" translatable="false">Basic Freight</string>
+    <string name="docket_charges" translatable="false">Docket Charges</string>
+    <string name="handling_charges" translatable="false">Handling Charges</string>
+    <string name="management_fee" translatable="false">Management Charge</string>
+    <string name="download_template" translatable="false">Download Template</string>
+    <string name="upload_files" translatable="false">Upload File</string>
+    <string name="ftl_customer" translatable="false">FTL Customer</string>
+    <string name="ftl_vendor" translatable="false">FTL Vendor</string>
+    <string name="ltl_customer" translatable="false">LTL Customer</string>
+    <string name="ltl_vendor" translatable="false">LTL Vendor</string>
+    <string name="msg_downloading" translatable="false">Downloading, Please wait…</string>
+    <string name="enter_remark" translatable="false">Enter Remarks *</string>
+    <string name="customer_loading_charge" translatable="false">Customer Loading Charges</string>
+    <string name="customer_unloading_charge" translatable="false">Customer Unloading Charges</string>
+    <string name="customer_other_charge" translatable="false">Customer Other Charges</string>
+    <string name="vendor_loading_charge" translatable="false">Vendor Loading Charges</string>
+    <string name="vendor_unloading_charge" translatable="false">Vendor Unloading Charges</string>
+    <string name="vendor_other_charge" translatable="false">Vendor Other Charges</string>
+    <string name="ftl_manual_tracking_alert_message" translatable="false">Selected trip has been booked without driver application.\nDo you wish to proceed with entering manual tracking data? </string>
+
+    <string name="do_you_want_to_complete_trip" translatable="false">Do you want to mark the trip as completed?</string>
+    <string name="complete_trip" translatable="false">Complete Trip</string>
+    <string name="are_you_want_to_complete_trip" translatable="false">Are you sure you want to complete this trip?</string>
+
+    <string name="no_of_boxes_mandatory" translatable="false">No. of Boxes *</string>
+    <string name="sku_code_mandatory" translatable="false">SKU Code *</string>
+    <string name="carton_code_mandatory" translatable="false">Carton Code *</string>
+    <string name="actual_weight_mandatory" translatable="false">Actual Weight *</string>
+    <string name="length_mm_mandatory" translatable="false">Length (mm) *</string>
+    <string name="height_mm_mandatory" translatable="false">Height (mm) *</string>
+    <string name="breadth_mm_mandatory" translatable="false">Breadth (mm) *</string>
+    <string name="length_mand" translatable="false">Length *</string>
+    <string name="height_mand" translatable="false">Height *</string>
+    <string name="breadth_mand" translatable="false">Breadth *</string>
+    <string name="length_mm" translatable="false">Length (mm)</string>
+    <string name="height_mm" translatable="false">Height (mm)</string>
+    <string name="breadth_mm" translatable="false">Breadth (mm)</string>
+    <string name="ewaybill_date_range" translatable="false">E-Waybill Date Range</string>
+    <string name="upload_trip_documents" translatable="false"><u>Add Trip Documents</u></string>
+    <string name="upload" translatable="false">Upload</string>
+
+    <string name="err_enter_number_of_boxes" translatable="false">Enter number of boxes</string>
+    <string name="err_add_dimensions" translatable="false">Add Box Dimensions</string>
+    <string name="err_no_of_boxes_doesnt_match" translatable="false">The entry for the number of boxes do not match</string>
+    <string name="err_enter_skucode" translatable="false">Enter SKU Code</string>
+    <string name="err_enter_cartoncode" translatable="false">Enter Carton Code</string>
+    <string name="err_enter_actualweight" translatable="false">Enter Actual Weight</string>
+    <string name="err_enter_breadth" translatable="false">Enter Breadth</string>
+    <string name="err_enter_length" translatable="false">Enter Length</string>
+    <string name="err_enter_height" translatable="false">Enter Height</string>
+    <string name="err_select_from_zone" translatable="false">Select From Zone</string>
+
+    <string name="surcharges" translatable="false">Surcharges</string>
+    <string name="cover_charges" translatable="false">Cover Charges</string>
+    <string name="cover_collection_charges" translatable="false">Cover Collection Charges</string>
+    <string name="door_collection_charges" translatable="false">Door Collection Charges</string>
+    <string name="door_delivery_charges" translatable="false">Door Delivery Charges</string>
+    <string name="value_added_services" translatable="false">Value Added Service</string>
+    <string name="statistical_charges" translatable="false">Statistical Charges</string>
+    <string name="misc_charges" translatable="false">Miscellaneous Charges</string>
+    <string name="add_additional_charges" translatable="false"><u>Add Additional Charges</u></string>
+    <string name="scan_date_and_time" translatable="false">Scan Date &amp; Time</string>
+    <string name="scan_location" translatable="false">Scan Location</string>
+    <string name="message" translatable="false">Message</string>
+    <string name="event_description" translatable="false">Event Description</string>
+    <string name="select_drivers" translatable="false">Select Drivers</string>
+    <string name="access_denied" translatable="false">You don\'t have permission to use this App. Contact your administrator for help.</string>
+    <!--    Round Trip-->
+    <string name="onward" translatable="false">Onward</string>
+    <string name="action_return" translatable="false">Return</string>
+    <string name="both" translatable="false">Both Ways</string>
+    <string name="round_trip_commercial" translatable="false">Round Trip Commercial</string>
+    <string name="round_trip_customer_list" translatable="false">Round Trip Customer List</string>
+    <string name="round_trip_vendor_list" translatable="false">Round Trip Vendor List</string>
+    <string name="round_trip" translatable="false">Round Trip</string>
+    <string name="add_round_trip_commercial" translatable="false">Add Round Trip Commercial</string>
+    <string name="round_trip_customer" translatable="false">Round Trip Customer</string>
+    <string name="round_trip_vendor" translatable="false">Round Trip Vendor</string>
+    <string name="update_round_trip_commercial" translatable="false">Update Round Trip Commercial</string>
+    <string name="thc" translatable="false">Trip Hire Contract</string>
+    <string name="thc_pending_list" translatable="false">THC Pending List</string>
+    <string name="thc_completed_list" translatable="false">THC Completed List</string>
+    <string name="pending" translatable="false">Pending</string>
+    <string name="completed" translatable="false">Completed</string>
+    <string name="thc_no" translatable="false">THC No.</string>
+    <string name="payments" translatable="false">Payments</string>
+    <string name="hod_approval_status" translatable="false">HOD Approval Status</string>
+    <string name="pending_list" translatable="false">Pending List</string>
+    <string name="completed_list" translatable="false">Completed List</string>
+    <string name="select_city_state_location_zone_wise" translatable="false">Select City/State/Location/Zone Wise *</string>
+    <string name="select_origin_zone" translatable="false">Select Origin Zone *</string>
+    <string name="select_destination_zone" translatable="false">Select Destination Zone *</string>
+    <string name="select_city_state_location_wise" translatable="false">Select City/State/Location Wise *</string>
+    <string name="select_location_zone_wise_mandatory" translatable="false">Select Location/Zone Wise *</string>
+    <string name="select_location_zone_wise" translatable="false">Select Location/Zone Wise</string>
+
+    <string name="err_location_zone_wise" translatable="false">Select Location/Zone</string>
+    <string name="advance_approved" translatable="false">Advance Payment Approved</string>
+    <string name="advance_rejected" translatable="false">Advance Payment Rejected</string>
+    <string name="advance_pending" translatable="false">Advance Payment Pending</string>
+    <string name="new_" translatable="false">New</string>
+    <string name="processed_advance" translatable="false">Processed Advance Payment</string>
+    <string name="processed_final" translatable="false">Processed Final Payment</string>
+    <string name="advance_paid" translatable="false">Advance Paid</string>
+    <string name="final_paid" translatable="false">Final Payment Made</string>
+    <string name="rejected_final" translatable="false">Rejected Final Payment</string>
+    <string name="final_approved" translatable="false">Final Payment Approved</string>
+    <string name="final_rejected" translatable="false">Final Payment Rejected</string>
+    <string name="final_pending" translatable="false">Final Payment Pending</string>
+    <string name="advance_not_submitted" translatable="false">Advance Not Submitted</string>
+    <string name="awaiting_advance" translatable="false">Awaiting Advance Payment Entry</string>
+    <string name="awaiting_final" translatable="false">Awaiting Final Payment Entry</string>
+    <string name="returned_advance" translatable="false">Returned Advance Payment</string>
+    <string name="returned_final" translatable="false">Returned Final Payment</string>
+    <string name="completed_" translatable="false">Completed</string>
+    <string name="modify_advance" translatable="false">Modify Advance Payment</string>
+    <string name="modify_final_payment" translatable="false">Modify Final Payment</string>
+    <string name="final_not_submitted" translatable="false">Final Payment Not Submitted</string>
+    <string name="total_freight" translatable="false">Total Cost</string>
+    <string name="advance_amount" translatable="false">Advance Amount *</string>
+    <string name="advance" translatable="false">Advance(%)</string>
+    <string name="halting_charges" translatable="false">Halting Charges</string>
+    <string name="unloading_charges" translatable="false">Unloading Charges</string>
+    <string name="loading_charges" translatable="false">Loading Charges</string>
+    <string name="police_rto" translatable="false">Police / RTO</string>
+    <string name="description" translatable="false">Description</string>
+
+    <string name="sgst" translatable="false">SGST(%)</string>
+    <string name="cgst" translatable="false">CGST(%)</string>
+    <string name="igst" translatable="false">IGST(%)</string>
+    <string name="tds" translatable="false">TDS(%)</string>
+    <string name="total_tax" translatable="false">Total Tax *</string>
+    <string name="final_amount" translatable="false">Final Amount *</string>
+    <string name="cheque_no" translatable="false">Cheque Number *</string>
+    <string name="cheque_date" translatable="false">Cheque Date *</string>
+    <string name="ifsc_code" translatable="false">IFSC Code *</string>
+    <string name="acc_no" translatable="false">Bank Account Number *</string>
+    <string name="select_master_trip_id" translatable="false">Select Master Trip Id *</string>
+    <string name="select_master_trip_ids" translatable="false">Select Master Trip Id</string>
+    <string name="thc_creation_date" translatable="false">THC Creation Date</string>
+    <string name="user_branch_name" translatable="false">User Branch Name</string>
+    <string name="vendor_code" translatable="false">Vendor Code</string>
+    <string name="vehicle_number" translatable="false">Vehicle Number</string>
+    <string name="select_warehouse_name" translatable="false">Select Warehouse Name</string>
+    <string name="advances" translatable="false">Advance(%)(0-100) *</string>
+    <string name="loading_chargess" translatable="false">Loading Charges</string>
+    <string name="advance_amounts" translatable="false">Advance Amount *</string>
+    <string name="balances" translatable="false">Balance *</string>
+    <string name="total_freights" translatable="false">Total Freight *</string>
+    <string name="halting_chargess" translatable="false">Halting Charges</string>
+    <string name="unloading_chargess" translatable="false">Unloading Charges</string>
+    <string name="police_rtos" translatable="false">Police RTO</string>
+    <string name="misc_chargess" translatable="false">Misc. Charges</string>
+    <string name="descriptions" translatable="false">Description *</string>
+    <string name="sgsts" translatable="false">SGST(%) * </string>
+    <string name="cgsts" translatable="false">CGST(%) * </string>
+    <string name="igsts" translatable="false">IGST(%) * </string>
+    <string name="tdss" translatable="false">TDS(%) *</string>
+    <string name="total_taxs" translatable="false">Total Tax *</string>
+    <string name="final_amounts" translatable="false">Final Amount *</string>
+    <string name="lr_date" translatable="false">LR Date</string>
+    <string name="no_of_pkgs" translatable="false">No of Pkgs.</string>
+    <string name="show_lr_details" translatable="false">Show LR Details</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="save_submit" translatable="false">Save &amp; Submit</string>
+    <string name="update_submit" translatable="false">Update &amp; Submit</string>
+    <string name="thc_approval" translatable="false">THC Approval</string>
+    <string name="enter_remarks" translatable="false">Enter Remarks</string>
+    <string name="email_ids" translatable="false">Email Id</string>
+    <string name="customer_code" translatable="false">Customer Code *</string>
+    <string name="code_created_date" translatable="false">Code Created Date</string>
+    <string name="err_enter_customer_code" translatable="false">Enter Customer Code</string>
+    <string name="address_line_1" translatable="false">Address Line 1 *</string>
+    <string name="address_line_2" translatable="false">Address Line 2</string>
+    <string name="citys" translatable="false">City *</string>
+    <string name="states" translatable="false">State *</string>
+    <string name="pincodes" translatable="false">Pincode *</string>
+    <string name="err_enter_address_line_1" translatable="false">Enter address line 1</string>
+    <string name="err_city" translatable="false">Enter City</string>
+    <string name="err_state" translatable="false">Enter State</string>
+    <string name="err_select_city" translatable="false">Select City</string>
+    <string name="err_pincode" translatable="false">Enter Pincode</string>
+    <string name="address_names" translatable="false">Address Name *</string>
+    <string name="err_enter_address_name" translatable="false">Enter Address Name</string>
+    <string name="err_select_address" translatable="false"> Select Address </string>
+    <string name="select_shipper" translatable="false">Select Shipper</string>
+    <string name="vendor_codes" translatable="false">Vendor Code *</string>
+    <string name="city_name" translatable="false">City</string>
+    <string name="pincode_name" translatable="false">Pincode</string>
+    <string name="cin_no" translatable="false">CIN</string>
+    <string name="gst_no" translatable="false">GSTIN</string>
+    <string name="pan_no" translatable="false">PAN :</string>
+    <string name="cin_no_mand" translatable="false">CIN*</string>
+    <string name="gst_no_mand" translatable="false">GSTIN*</string>
+    <string name="pan_no_mand" translatable="false">PAN *</string>
+    <string name="ifsc_codes" translatable="false">IFSC Code</string>
+    <string name="vendor_names" translatable="false">Vendor Name *</string>
+    <string name="vendor_address" translatable="false">Vendor Address *</string>
+    <string name="err_vendor_name" translatable="false">Enter Vendor Name</string>
+    <string name="err_vendor_code" translatable="false">Enter Vendor Code</string>
+    <string name="err_vendor_address" translatable="false">Enter Vendor Address</string>
+    <string name="err_gst_no" translatable="false">Enter GSTIN</string>
+    <string name="err_cin_no" translatable="false">Enter CIN</string>
+    <string name="err_pan_no" translatable="false">Enter PAN</string>
+    <string name="err_enter_address" translatable="false">Enter Address</string>
+    <string name="phone_nos" translatable="false">Phone Number</string>
+    <string name="err_enter_valid_account_no" translatable="false">Enter a valid account number</string>
+    <string name="err_enter_valid_ifsc_code" translatable="false">Enter a valid IFSC code</string>
+    <string name="select_warehouse_mand" translatable="false">Select Warehouse *</string>
+    <string name="select_city_state_wise" translatable="false">City/State Wise *</string>
+    <string name="from_state" translatable="false">From State *</string>
+    <string name="from_city" translatable="false">From City *</string>
+    <string name="select_origin_city" translatable="false">Select Origin City *</string>
+    <string name="select_destination_city" translatable="false">Select Destination City *</string>
+    <string name="select_origin_state" translatable="false">Select Origin State *</string>
+    <string name="select_destination_state" translatable="false">Select Destination State *</string>
+    <string name="origin_city" translatable="false">Origin City</string>
+    <string name="destination_city" translatable="false">Destination City</string>
+    <string name="to_city" translatable="false">To City *</string>
+    <string name="origin_state" translatable="false">Origin State</string>
+    <string name="destination_state" translatable="false">Destination State</string>
+    <string name="to_state" translatable="false">To State *</string>
+    <string name="origin_city_mand" translatable="false">Origin City *</string>
+    <string name="destination_city_mand" translatable="false">Destination City *</string>
+    <string name="origin_state_mand" translatable="false">Origin State *</string>
+    <string name="destination_state_mand" translatable="false">Destination State *</string>
+    <string name="origin_full_address_mand" translatable="false">Origin Address *</string>
+    <string name="destination_full_address_mand" translatable="false">Destination Address *</string>
+    <string name="err_origin_city" translatable="false">Enter Origin City</string>
+    <string name="err_destination_city" translatable="false">Enter Destination City</string>
+    <string name="err_origin_state" translatable="false">Enter Origin State</string>
+    <string name="err_destination_state" translatable="false">Enter Destination State</string>
+    <string name="err_origin_address" translatable="false">Enter Origin Address</string>
+    <string name="err_destination_address" translatable="false">Enter Destination Address</string>
+    <string name="err_no_warehouse" translatable="false">Warehouse data not available</string>
+    <string name="err_select_state" translatable="false">Select State</string>
+    <string name="select_location_on_map" translatable="false">Pin and select the warehouse location on map</string>
+    <string name="warehouse_name_mandatory" translatable="false">Warehouse Name *</string>
+    <string name="sub_branch_name_mandatory" translatable="false">Sub Branch Name *</string>
+
+    <string name="customer_address_not_available" translatable="false">Customer address not available</string>
+    <string name="err_same_zone" translatable="false">Origin and Destination zones cannot be the same. </string>
+    <string name="rate_type" translatable="false">Rate Type</string>
+    <string name="add_ftl" translatable="false">Add FTL</string>
+    <string name="add_ltl" translatable="false">Add LTL</string>
+    <string name="record_exists" translatable="false">Record already exists</string>
+    <string name="err_select_origin_state" translatable="false">Select Origin State</string>
+    <string name="err_select_destination_state" translatable="false">Select Destination State</string>
+    <string name="err_select_origin_city" translatable="false">Select Origin City</string>
+    <string name="err_select_destination_city" translatable="false">Select Destination City</string>
+    <string name="err_select_origin_location" translatable="false">Select Origin Location</string>
+    <string name="err_select_origin_zone" translatable="false">Select Origin Zone</string>
+    <string name="err_select_destination_location" translatable="false">Select Destination Location</string>
+    <string name="err_select_destination_zone" translatable="false">Select Destination Zone</string>
+    <string name="err_same_state" translatable="false">State cannot be the same for origin and destination</string>
+    <string name="err_same_city" translatable="false">City cannot be the same for origin and destination</string>
+    <string name="err_same_location" translatable="false">Location cannot be the same for origin and destination</string>
+    <string name="select_origin_location" translatable="false">Select Origin Location *</string>
+    <string name="select_destination_location" translatable="false">Select Destination Location *</string>
+    <string name="thc_general" translatable="false">THC General</string>
+    <string name="thc_advance" translatable="false">THC Advance</string>
+    <string name="thc_final" translatable="false">THC Final</string>
+    <string name="err_sgst_cgst_igst" translatable="false">Enter SGST &amp; CGST or IGST</string>
+    <string name="err_sgst" translatable="false">Enter SGST</string>
+    <string name="err_cgst" translatable="false">Enter CGST</string>
+    <string name="err_igst" translatable="false">Enter IGST</string>
+    <string name="err_tds" translatable="false">Enter TDS</string>
+    <string name="err_remarks" translatable="false">Enter Remarks</string>
+    <string name="with_advance" translatable="false">With Advance Payment</string>
+    <string name="with_advance_payment" translatable="false">With Advance</string>
+    <string name="withoutAdvance" translatable="false">Without Advance</string>
+    <string name="without_advance" translatable="false">Without Advance Payment</string>
+    <string name="err_enter_advance" translatable="false">Enter Advance Payment</string>
+    <string name="err_description" translatable="false">Enter Description</string>
+    <string name="commercial_status" translatable="false">Commercials Status</string>
+    <string name="deactivation_pending" translatable="false">Deactivation Pending</string>
+    <string name="activation_pending" translatable="false">Activation Pending</string>
+    <string name="active" translatable="false">Active</string>
+    <string name="disabled" translatable="false">Disabled</string>
+    <string name="commercial_enable_status_approval" translatable="false">Do you want to approve the “Enable” status for commercial?</string>
+    <string name="commercial_disable_status_approval" translatable="false">Do you want to approve the “Disable” status for commercial?</string>
+    <string name="confirm" translatable="false">Confirm</string>
+    <string name="reasons" translatable="false">Reason</string>
+    <string name="balance" translatable="false">Balance *</string>
+    <string name="customer_commercial" translatable="false">Commercials List</string>
+    <string name="vendor_commercial" translatable="false">Vendor Commercial</string>
+    <string name="commercials" translatable="false">Commercials</string>
+    <string name="customer_commercials" translatable="false">Customer Commercial</string>
+    <string name="delivery_location" translatable="false">Delivery Location</string>
+    <string name="delivery_date_mandatory" translatable="false">Delivery Date *</string>
+    <string name="valid_till" translatable="false">Valid Till</string>
+    <string name="today" translatable="false">Today</string>
+    <string name="transportation_mode" translatable="false">Transportation Mode</string>
+    <string name="nein_lrno" translatable="false">NEIN LR No.</string>
+    <string name="nein_lr_date" translatable="false">NEIN LR DATE</string>
+    <string name="driver_number" translatable="false">Driver Mobile Number</string>
+    <string name="pickup_req_revised_datetime" translatable="false">Pick-up request Date &amp; Time</string>
+    <string name="pickup_schedule_date_mandatory" translatable="false">Pick-up scheduled Date *</string>
+    <string name="vehicle_placed_datetime_at_origin_mandatory" translatable="false">Vehicle Placed at Origin (Date &amp; Time) *</string>
+    <string name="vehicle_reported_datetime_at_dest_mandatory" translatable="false">Vehicle Reported at Destination (Date &amp; Time) *</string>
+    <string name="veh_released_datetime_at_dest_mandatory" translatable="false">Vehicle Release at Destination (Date &amp; Time) *</string>
+    <string name="vendor_bills_ageing_mandatory" translatable="false">Vendor Bills Ageing *</string>
+    <string name="present_status_mandatory" translatable="false">Present Status *</string>
+    <string name="present_status" translatable="false">Present Status</string>
+
+    <string name="time_stamp" translatable="false">Time Stamp</string>
+    <string name="vehicle_placed_datetime_at_origin" translatable="false">Vehicle Placed at Origin (Date &amp; Time)</string>
+
+    <string name="manual_tracking_data_entry_form" translatable="false">Manual Tracking Data Entry Form</string>
+    <string name="pickup_schedule_date" translatable="false">Pick-up scheduled Date</string>
+    <string name="vehicle_reported_datetime_at_dest" translatable="false">Vehicle Reporting at Destination (Date &amp; Time)</string>
+    <string name="veh_released_datetime_at_dest" translatable="false">Vehicle Release at Destination (Date &amp; Time)</string>
+    <string name="delivery_date" translatable="false">Delivery Date</string>
+    <string name="vendor_bills_ageing" translatable="false">Vendor Bills Ageing</string>
+
+    <string name="target_kms_tobe_covered" translatable="false">Target Kilometers to be covered</string>
+    <string name="actual_kms_covered" translatable="false">Actual Kilometers covered</string>
+
+    <string name="status_or_remarks" translatable="false">Status/Remarks</string>
+    <string name="day" translatable="false">Day</string>
+    <string name="enter_day_mandatory" translatable="false">Enter Day No. *</string>
+
+    <string name="pod_status" translatable="false">POD Status</string>
+    <string name="pods_submit" translatable="false">POD\'s Submit</string>
+    <string name="pods_submission_date" translatable="false">POD Submission Date</string>
+    <string name="total_km" translatable="false">Total Km</string>
+    <string name="total_km_mandatory" translatable="false">Total Km *</string>
+    <string name="avg_km_covered_perday_mandatory" translatable="false">Average KM Coverage/Day *</string>
+    <string name="avg_km_covered_perday" translatable="false">Average KM Coverage/Day</string>
+
+    <string name="tgt_km_covered_mandatory" translatable="false">Target KM Covered *</string>
+    <string name="tgt_km_covered" translatable="false">Target KM Covered</string>
+
+    <string name="actual_days" translatable="false">Actual Days</string>
+    <string name="actual_km_mandatory" translatable="false">Actual KM *</string>
+    <string name="balance_km_mandatory" translatable="false">Balance KM *</string>
+    <string name="actual_km" translatable="false">Actual KM</string>
+    <string name="balance_km" translatable="false">Balance KM</string>
+    <string name="ontime_or_delayed" translatable="false">On-Time / Delayed</string>
+    <string name="ontime_or_delay_percent" translatable="false">On-Time / Delayed %</string>
+    <string name="actual_days_of_delivery" translatable="false">Actual Days of delivery</string>
+    <string name="reason_for_delay" translatable="false">Reason for Delay</string>
+    <string name="halting_days" translatable="false">Halting Days</string>
+    <string name="sub_customer" translatable="false">Sub Customer</string>
+    <string name="gst_applicable" translatable="false">GST not applicable</string>
+    <string name="view_more" translatable="false">View More</string>
+    <string name="err_enter_day" translatable="false">Enter Day</string>
+
+    <string name="err_select_pickup_schedule_date" translatable="false">Select Pick-up scheduled Date</string>
+    <string name="err_select_vehicle_placed_datetime_at_origin" translatable="false">Select Vehicle Placed at Origin (Date &amp; Time)</string>
+    <string name="err_select_vehicle_reported_datetime_at_dest" translatable="false">Select Vehicle Reporting at Destination (Date &amp; Time)</string>
+    <string name="err_select_veh_released_datetime_at_dest" translatable="false">Select Vehicle Release at Destination (Date &amp; Time)</string>
+    <string name="err_select_vendor_bills_ageing" translatable="false">Enter Vendor Bills Ageing </string>
+    <string name="err_select_present_status" translatable="false">Enter Present Status</string>
+    <string name="err_select_delivery_date" translatable="false">Select Delivery Date *</string>
+    <string name="err_enter_total_km" translatable="false">Enter Total Km</string>
+    <string name="err_enter_avg_km_covered_perday" translatable="false">Enter Average KM Coverage/Day</string>
+    <string name="err_enter_tat" translatable="false">Enter TAT</string>
+    <string name="err_enter_tgt_km_covered" translatable="false">Enter Target KM Covered</string>
+    <string name="err_enter_actual_km" translatable="false">Enter Actual KM</string>
+    <string name="err_enter_balance_km" translatable="false">Enter Balance KM</string>
+    <string name="powered_by">Powered By;</string>
+    <string name="employee_id_mand">Employee Id *</string>
+    <string name="err_enter_employee_id">Enter employee id</string>
+    <string name="submit_and_endtrip">Submit &amp; EndTrip</string>
+
+
+    <string name="crop">Crop</string>
+    <string name="upload_pod">Upload POD / DC</string>
+    <string name="view_pod" translatable="false">View POD / DC</string>
+
+    <string name="msg_uploading">Uploading, please wait&#8230;</string>
+    <string name="msg_compressing">Compressing image, please wait&#8230;</string>
+    <string name="upload_success">Uploaded successfully</string>
+    <string name="err_upload_document">Upload atleast one document</string>
+    <string name="upload_max_document">You can upload max 3 images</string>
+    <string name="upload_pod_dc">Upload POD / DC</string>
+    <string name="employee_id">Employee Id</string>
+    <string name="pods">Pod</string>
+
+    <!--    Reports-->
+
+    <string name="select_report_type_mand" translatable="false">Select Report type *</string>
+    <string name="service_mand" translatable="false">Service *</string>
+    <string name="err_select_report_type" translatable="false">Select Report type</string>
+    <string name="err_select_from_date" translatable="false">Select From Date</string>
+    <string name="err_select_to_date" translatable="false">Select To Date</string>
+    <string name="expected_delivery_date" translatable="false">Expected Delivery Date</string>
+    <string name="billing_party_name" translatable="false">Billing Party Name</string>
+    <string name="reports_detail" translatable="false">Reports Detail</string>
+    <string name="packages" translatable="false">Packages</string>
+    <string name="charged_weight" translatable="false">Charged Weight</string>
+    <string name="thc_date" translatable="false">THC Date</string>
+    <string name="vehicle_model" translatable="false">Vehicle Model</string>
+    <string name="vendor_basic_cost" translatable="false">Vendor Basic Cost</string>
+    <string name="carrier_details" translatable="false">Carrier Details</string>
+    <string name="carrier_charges" translatable="false">Carrier Charges</string>
+    <string name="others" translatable="false">Others</string>
+    <string name="carrier_sub_total" translatable="false">Carrier Sub Total</string>
+    <string name="customer_sub_total" translatable="false">Customer Sub Total</string>
+    <string name="customer_details" translatable="false">Customer Details</string>
+    <string name="docket" translatable="false">Docket</string>
+    <string name="handling" translatable="false">Handling</string>
+    <string name="freight" translatable="false">Freight</string>
+    <string name="mgmt" translatable="false">Mgmt</string>
+    <string name="other" translatable="false">Other</string>
+    <string name="customer_charges" translatable="false">Customer Charges</string>
+    <string name="customer_other_charges" translatable="false">Customer Other Charges</string>
+    <string name="thc_amount" translatable="false">THC Amount</string>
+    <string name="thc_advance_amount" translatable="false">THC Advance Amount</string>
+    <string name="balance_amount" translatable="false">Balance Amount</string>
+    <string name="gstin" translatable="false">GSTIN</string>
+    <string name="actual_delivery_date" translatable="false">Actual Delivery Date</string>
+    <string name="total_vendor_expense" translatable="false">Total Vendor Expense</string>
+    <string name="total_expenses" translatable="false">Total Expenses</string>
+    <string name="total_cost" translatable="false">Total Cost</string>
+
+    <string name="docket_profitability" translatable="false">Docket Profitability</string>
+    <string name="label_service" translatable="false">Service</string>
+    <string name="from_date" translatable="false">From Date</string>
+    <string name="to_date" translatable="false">To Date</string>
+    <string name="truck_no" translatable="false">Truck No.</string>
+    <string name="model_of_truck" translatable="false">Model of Truck</string>
+    <string name="expected_date" translatable="false">Expected Date</string>
+    <string name="arrival_date" translatable="false">Arrival Date</string>
+    <string name="unloading_date" translatable="false">Unloading Date</string>
+    <string name="unloading_time" translatable="false">Unloading Time</string>
+    <string name="aprx_transit_time_days" translatable="false">Aprx Transit Time / Days</string>
+    <string name="percentage" translatable="false">Percentage</string>
+    <string name="delivery_tat" translatable="false">Delivery Tat</string>
+    <string name="invoice_details" translatable="false">Invoice Details</string>
+    <string name="from_date_mand" translatable="false">From Date *</string>
+    <string name="to_date_mand" translatable="false">To Date *</string>
+    <string name="from_date_should_no_exceed_to_date" translatable="false">From Date should not exceed To Date</string>
+    <string name="expected_arrival_date" translatable="false">Expected Arrival Date</string>
+    <string name="customer_sub_total_freight" translatable="false">Customer Sub Total Freight</string>
+    <string name="carrier_sub_total_freight" translatable="false">Carrier Sub Total Freight</string>
+    <string name="p_n_l" translatable="false">P &amp; L</string>
+    <string name="err_select_service" translatable="false">Select Service</string>
+    <string name="sub_total" translatable="false">Sub Total</string>
+    <string name="label_sgst" translatable="false">SGST</string>
+    <string name="label_cgst" translatable="false">CGST</string>
+    <string name="label_igst" translatable="false">IGST</string>
+    <string name="total_amount" translatable="false">Total Amount</string>
+    <string name="per_kg_rate" translatable="false">Per KG Rate</string>
+    <string name="detention_charge" translatable="false">Detention Charge</string>
+    <string name="oda_charge" translatable="false">ODA Charge</string>
+    <string name="edit_charges" translatable="false">Edit Charges</string>
+    <string name="enter_the_charge" translatable="false">Enter the charge</string>
+    <string name="thc_details" translatable="false">THC Details</string>
+    <string name="thc_cost" translatable="false">THC Cost</string>
+    <string name="charges" translatable="false">Charges</string>
+    <string name="payment_details" translatable="false">Payment Details</string>
+    <string name="advance_amt_cheq_no" translatable="false">Adavnce Amt Cheque No.</string>
+    <string name="advance_cheque_amount" translatable="false">Adavnce Cheque Amount</string>
+    <string name="advance_cheque_date" translatable="false">Adavnce Cheque Date</string>
+    <string name="final_cheque_no" translatable="false">Final Cheque No.</string>
+    <string name="payment_date" translatable="false">Payment Date</string>
+    <string name="advance_date" translatable="false">Adavnce Date</string>
+    <string name="final_pay_date" translatable="false">Final Pay Date</string>
+    <string name="annx_inv_msg" translatable="false">The selected entries will be added to customer wise os report and entries not selected will be in unbilled cn wise report.Please confirm.</string>
+    <string name="annx_vendor_msg" translatable="false"> The selected entries will be added to vendor wise os report.Please confirm.</string>
+    <string name="report_msg" translatable="false">The selected entries will be added to customer wise os report and entries not selected will be in unbilled cn wise report.Please confirm.</string>
+    <string name="view_trip_documents"><u>View Trip Documents</u></string>
+    <string name="add_trip_documents"><u>Add Trip Documents</u></string>
+    <string name="additional_trip_documents" translatable="false"><u>Additional Trip Documents</u></string>
+    <string name="driver_mobile_number">Driver mobile number</string>
+    <string name="fright_tiger_trip_id">Fright tiger trip id</string>
+    <string name="track_details">TRACK DETAILS</string>
+    <string name="date_and_time" translatable="false">Date &amp; Time</string>
+    <string name="sim_based_tracking" translatable="false">Sim Based Tracking</string>
+    <string name="freight_tiger_trip_id" translatable="false">Freight tiger trip id *</string>
+    <string name="driver_mobile_no" translatable="false">Driver mobile number *</string>
+    <string name="err_freight_tiger_trip_id" translatable="false">Enter Freight tiger trip id *</string>
+    <string name="err_driver_mobile_no" translatable="false">Enter Driver mobile number *</string>
+    <string name="tax_details" translatable="false">Tax Details</string>
+    <string name="trip_details" translatable="false">Trip Details</string>
+    <string name="customer_lr_number" translatable="false">Customer LR Number</string>
+    <string name="gta_sgst" translatable="false">GTA SGST</string>
+    <string name="choose_location_branch_sub_branch" translatable="false">Choose Location/Branch/Sub Branch</string>
+    <string name="date_of_birth" translatable="false">Date of Birth</string>
+    <string name="indicates_mandatory_field" translatable="false">* Indicates mandatory field</string>
+
+
+    <string-array name="capacity_array">
+        <item>In Ton</item>
+        <item>In Cubic Meter</item>
+        <item>In Liters</item>
+    </string-array>
+    <string-array name="vehicle_class_array">
+        <item>MGV-ME</item>
+        <item>MAXLGV</item>
+        <item>HGV-HE</item>
+        <item>ARTVEH</item>
+        <item>HGV(M.AXLE)-MULTI AXLE</item>
+        <item>HGV</item>
+    </string-array>
+    <string-array name="payment">
+        <item>Cash</item>
+        <item>Online</item>
+    </string-array>
+    <string-array name="weight_type">
+        <item>Weight in kg</item>
+        <item>Volumetric Weight</item>
+    </string-array>
+    <string-array name="lang_array">
+        <item>English</item>
+        <item>ಕನ್ನಡ</item>
+        <item>हिंदी</item>
+    </string-array>
+    <string-array name="select_document">
+        <item>RC</item>
+        <item>Insurance</item>
+        <item>Permit</item>
+        <item>Road Tax</item>
+        <item>EC</item>
+        <item>FC</item>
+    </string-array>
+    <string-array name="select_remark">
+        <item>Damage</item>
+        <item>Shortage</item>
+        <item>Pilferage</item>
+        <item>Good Condition</item>
+    </string-array>
+    <string-array name="select_ontime_dealyed">
+        <item>On-Time</item>
+        <item>Delayed</item>
+
+    </string-array>
+    <string-array name="select_slab_size">
+        <item>SMALL</item>
+        <item>MEDIUM</item>
+        <item>LARGE</item>
+    </string-array>
+    <string-array name="select_slab_pricing_type">
+        <item>SLAB</item>
+        <item>FIXED</item>
+        <item>LUMPSUM</item>
+    </string-array>
+
+    <string-array name="ltl_dimsension_unit">
+        <item>cm</item>
+        <item>mm</item>
+        <item>inch</item>
+    </string-array>
+
+    <string-array name="report_type_array">
+        <item>DSR Report</item>
+        <item>THC Report</item>
+        <!--        <item>LR Wise Report</item>-->
+        <!--        <item>KPI Report</item>-->
+        <!--        <item>POD Report</item>-->
+        <!--        <item>CN Wise P &amp; L Report</item>-->
+        <!--        <item>Annexure Sheet For Invoicing</item>-->
+        <!--        <item>Annexure For Vendor Expenses</item>-->
+        <!--        <item>Customer Wise OS Report</item>-->
+        <!--        <item>Unbilled CN wise Report</item>-->
+        <!--        <item>Vendor Wise OS Report</item>-->
+
+    </string-array>
+    <string-array name="service_array">
+        <item>All</item>
+        <item>FTL</item>
+        <item>LTL</item>
+        <item>Round Trip</item>
+        <item>Milk Run</item>
+        <item>Dedicated</item>
+    </string-array>
+    <string-array name="ltl_document">
+        <item>Invoice</item>
+        <item>Packing List</item>
+    </string-array>
+
+    <string-array name="url_select">
+        <item>Nippon PREPOD</item>
+        <item>Nippon UAT</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="consignor_details">Consignor Details</string>
+    <string name="consigne_details">Consignee Details</string>
+    <string name="pieces">Qty / No. of Pieces </string>
+    <string name="choose_material_type">Choose Material Type</string>
+
+
+    <string-array name="where_is_delivery">
+        <item>Intransit</item>
+        <item>At Pickup</item>
+        <item>At Delivry</item>
+        <item>Delivered</item>
+    </string-array>
+
+</resources>

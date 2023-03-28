@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".PODFragment">
+
+    <LinearLayout
+        android:id="@+id/choose_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/choose_LR_layout"
+            style="@style/TextInputLayoutWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/choose_LR"
+                style="@style/TextInputEditBase1"
+                android:clickable="true"
+                android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                android:focusable="false"
+                android:hint="Choose LR No."
+                android:inputType="textNoSuggestions" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/date_range_layout"
+            style="@style/TextInputLayoutWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/date_range"
+                style="@style/TextInputEditBase1"
+
+                android:clickable="true"
+                android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                android:focusable="false"
+                android:hint="Choose Date Range"
+                android:inputType="textNoSuggestions" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/choose_month_layout"
+            style="@style/TextInputLayoutWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/choose_month"
+                style="@style/TextInputEditBase1"
+                android:clickable="true"
+                android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                android:focusable="false"
+                android:hint="Choose Month"
+                android:inputType="textNoSuggestions"
+                android:visibility="gone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pod_search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Submit"
+        app:backgroundTint="@color/colorBlue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choose_layout" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/lr_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green_500"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:text="LR  No."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@id/one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pod_search_button"
+
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/choose_Date_Range_guide_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/origin_city"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green_500"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:text="Origin City"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@id/two"
+
+        app:layout_constraintStart_toEndOf="@id/one"
+        app:layout_constraintTop_toBottomOf="@id/pod_search_button" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/destination_city"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green_500"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:text="Destination City"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@id/three"
+        app:layout_constraintStart_toEndOf="@id/two"
+        app:layout_constraintTop_toBottomOf="@id/pod_search_button"
+
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/pod_downlaod"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green_500"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:text="POD"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/three"
+        app:layout_constraintTop_toBottomOf="@id/pod_search_button"
+
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lr_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/destination_city" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

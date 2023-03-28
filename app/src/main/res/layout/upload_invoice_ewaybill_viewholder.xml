@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- android:background="?attr/selectableItemBackground"-->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:outlineProvider="none"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/white">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/fixed_invoice_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.05" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/middle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.4" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.7" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/booking_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="98494954827"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey_700"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toStartOf="@id/middle"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/origin_city"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="banglore"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey_600"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/end"
+                    app:layout_constraintStart_toEndOf="@id/middle"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/destination_city"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="chennai"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey_600"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="@id/end"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/arrow_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add"
+                    app:layout_constraintBottom_toBottomOf="@id/destination_city"
+                    app:layout_constraintStart_toEndOf="@id/destination_city"
+                    app:layout_constraintTop_toTopOf="@id/destination_city" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/hidden_layout_invoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fixed_invoice_layout">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/invoice_no_layout"
+                    style="@style/TextInputLayout1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/invoice_no"
+                        style="@style/TextInputEditBase1"
+                        android:digits="@string/only_char_number_specialchar"
+                        android:hint="Invoice No"
+                        android:inputType="textCapWords"
+                        android:maxLength="255" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/invoice_date_layout"
+                    style="@style/TextInputLayout1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/invoice_no_layout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/invoice_date"
+                        style="@style/TextInputEditBase1"
+                        android:clickable="true"
+                        android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                        android:focusable="false"
+                        android:hint="Invoice Date"
+                        android:inputType="textNoSuggestions" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/invoice_value_layout"
+                    style="@style/TextInputLayout1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/invoice_date_layout">
+                    <!-- android:digits="@string/only_number"-->
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/invoice_value"
+                        style="@style/TextInputEditBase1"
+                        android:hint="Invoice value"
+                        android:inputType="numberDecimal"
+                        android:text="\u20B9" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/image1_cosntraint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.3" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/image2_cosntraint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_begin="241dp" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image_view_close_image1"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/close_invoice_eway"
+                    android:translationX="-5dp"
+                    android:translationY="20dp"
+                    app:layout_constraintBottom_toTopOf="@id/image_view_one"
+                    app:layout_constraintEnd_toEndOf="@id/image_view_one"
+                    app:layout_constraintStart_toEndOf="@id/image_view_one"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                    app:strokeColor="@color/appthemecolor"
+                    app:strokeWidth="1dp" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image_view_close_image2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/close_invoice_eway"
+                    android:translationX="-5dp"
+                    android:translationY="20dp"
+                    app:layout_constraintBottom_toTopOf="@id/image_view_two"
+                    app:layout_constraintEnd_toEndOf="@id/image_view_two"
+                    app:layout_constraintStart_toEndOf="@id/image_view_two"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                    app:strokeColor="@color/appthemecolor"
+                    app:strokeWidth="1dp" />
+
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image_view_one"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/nippon"
+                    app:layout_constraintEnd_toStartOf="@id/image_view_two"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/invoice_value_layout"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                    app:strokeColor="@color/appthemecolor"
+                    app:strokeWidth="1dp" />
+
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image_view_two"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/nippon"
+                    app:layout_constraintBottom_toBottomOf="@id/image_view_one"
+                    app:layout_constraintStart_toEndOf="@id/image_view_one"
+                    app:layout_constraintTop_toTopOf="@id/image_view_one"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                    app:strokeColor="@color/appthemecolor"
+                    app:strokeWidth="1dp" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/capture_cosntraint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.8" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/capture"
+                    style="@style/ButtonStyle8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Capture"
+                    app:layout_constraintBottom_toBottomOf="@id/image_view_one"
+                    app:layout_constraintEnd_toStartOf="@id/upload"
+                    app:layout_constraintTop_toTopOf="@id/image_view_one" />
+                <!---->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/upload"
+                    style="@style/ButtonStyle8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:text="Upload"
+                    app:layout_constraintBottom_toBottomOf="@id/image_view_one"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/image_view_one" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/eway_no_layout"
+                    style="@style/TextInputLayout1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image_view_one">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/eway_no"
+                        style="@style/TextInputEditBase1"
+                        android:digits="@string/only_char_number_specialchar"
+                        android:hint="E-way bill No"
+                        android:inputType="textCapWords"
+                        android:maxLength="255" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/eway_bill_from_date_layout"
+                    style="@style/TextInputLayout1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/eway_no_layout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/eway_bill_from_date"
+                        style="@style/TextInputEditBase1"
+                        android:clickable="true"
+                        android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                        android:focusable="false"
+                        android:hint="From Date"
+                        android:inputType="textNoSuggestions" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/eway_bill_to_date_layout"
+                    style="@style/TextInputLayout1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/eway_bill_from_date_layout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/eway_bill_to_date"
+                        style="@style/TextInputEditBase1"
+                        android:clickable="true"
+                        android:drawableEnd="@drawable/ic_arrow_drop_down_24px"
+                        android:focusable="false"
+                        android:hint="To Date"
+                        android:inputType="textNoSuggestions" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image_view_close_image3"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/close_invoice_eway"
+                    android:translationX="-5dp"
+                    android:translationY="20dp"
+                    app:layout_constraintBottom_toTopOf="@id/image_view_three"
+                    app:layout_constraintEnd_toEndOf="@id/image_view_three"
+                    app:layout_constraintStart_toEndOf="@id/image_view_three"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                    app:strokeColor="@color/appthemecolor"
+                    app:strokeWidth="1dp" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image_view_close_image4"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/close_invoice_eway"
+                    android:translationX="-5dp"
+                    android:translationY="20dp"
+                    app:layout_constraintBottom_toTopOf="@id/image_view_four"
+                    app:layout_constraintEnd_toEndOf="@id/image_view_four"
+                    app:layout_constraintStart_toEndOf="@id/image_view_four"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                    app:strokeColor="@color/appthemecolor"
+                    app:strokeWidth="1dp" />
+
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image_view_three"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/nippon"
+                    app:layout_constraintEnd_toStartOf="@id/image_view_four"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/eway_bill_to_date_layout"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                    app:strokeColor="@color/appthemecolor"
+                    app:strokeWidth="1dp" />
+
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image_view_four"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/nippon"
+                    app:layout_constraintBottom_toBottomOf="@id/image_view_three"
+                    app:layout_constraintStart_toEndOf="@id/image_view_three"
+                    app:layout_constraintTop_toTopOf="@id/image_view_three"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                    app:strokeColor="@color/appthemecolor"
+                    app:strokeWidth="1dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/capture_eway"
+                    style="@style/ButtonStyle8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Capture"
+                    app:layout_constraintBottom_toBottomOf="@id/image_view_three"
+                    app:layout_constraintEnd_toStartOf="@id/upload_eway"
+                    app:layout_constraintTop_toTopOf="@id/image_view_three" />
+                <!---->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/upload_eway"
+                    style="@style/ButtonStyle8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:text="Upload"
+                    app:layout_constraintBottom_toBottomOf="@id/image_view_three"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/image_view_three" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/divider_sbt_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.5" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/submitBtn_eway_invoice"
+                    style="@style/ButtonStyle8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_submit"
+                    app:layout_constraintEnd_toStartOf="@id/divider_sbt_cancel"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image_view_three" />
+                <!---->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/resetBtn_eway_invoice"
+                    style="@style/ButtonStyleReset"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:text="Cancel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/divider_sbt_cancel"
+                    app:layout_constraintTop_toBottomOf="@id/image_view_three" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
